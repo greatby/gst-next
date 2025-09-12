@@ -31,12 +31,14 @@ const HeroWithBackground = () => {
         />
       </div>
       {/* Overlay content */}
-      <div className="max-w-screen-2xl mx-auto flex flex-col gap-y-10 items-center py-16 text-center px-4 relative z-10">
-        <h1 className="text-4xl sm:text-6xl font-extrabold leading-tight">
+      <div className="max-w-screen-2xl mx-auto flex flex-col gap-y-8 items-center py-16 text-center px-4 relative z-10">
+        <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
           <span className="inline-block">GST</span>{" "}
           <span className="inline-block">Sorted.</span>{" "}
           <span className="inline-block">For Every buisness,</span>{" "}
+          <br />
           <span className="inline-block">Every rupee,</span>{" "}
+     
           <span className="inline-block">Every deadline.</span>
           <br />
           {/* <span className="inline-block">valued</span>{" "}

@@ -38,26 +38,26 @@ const navItems = [
       },
     ],
   },
-  {
-    name: "Resources",
-    type: "list",
-    links: [
-      { label: "Case Studies", href: "/cases" },
-      { label: "Business Startup Support", href: "/startup-support" },
-      { label: "Blog", href: "/blog" },
-    ],
-  },
+  // {
+  //   name: "Resources",
+  //   type: "list",
+  //   links: [
+  //     { label: "Case Studies", href: "/cases" },
+  //     { label: "Business Startup Support", href: "/startup-support" },
+  //     { label: "Blog", href: "/blog" },
+  //   ],
+  // },
   {
     name: "About",
     type: "list",
     links: [
       { label: "About", href: "/about" },
       { label: "Pricing", href: "/pricing" },
-      { label: "Careers", href: "/careers" },
+ 
       { label: "FAQ", href: "/faq" },
     ],
   },
-  { name: "Success Stories", type: "link", href: "/success-stories" },
+  // { name: "Success Stories", type: "link", href: "/success-stories" },
 ];
 
 export default function Navbar() {
