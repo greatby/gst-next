@@ -20,34 +20,33 @@ const AboutSection = () => {
       {/* Right side */}
       <div className="flex flex-col items-start w-full lg:max-w-2xl mt-10 lg:mt-0">
         <h3 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-          <span className="block">Pioneers in Outsourcing</span>
-          <span className="block">Services since 2002</span>
+          <span className="block">Human Expertise That Powers Your GST Technology</span>
+          
         </h3>
 
         <div className="mt-6 text-white space-y-4">
           <p>
-            Founded and headquartered in Portland, Oregon in 2002, TechSpeed Inc
-            is a women-owned and led technology company. We enable businesses of
-            all sizes to accelerate growth with comprehensive and scalable
-            outsourcing services. As pioneers in data services, we specialize in
-            pairing human support with technology automation.
+            You have Tally, Zoho, or an ERP system. They're powerful machines
+            for GST compliance. But every month, you still face the same manual
+            nightmares: data reconciliation, invoice mismatches, and the fear of
+            a compliance audit. The truth is, technology is only half the
+            solution. Without a masterful operator who understands the machine's
+            every nuance, it’s just a costly tool waiting for a mistake.
           </p>
           <p>
-            Headquartered in the USA, with production offices in India,
-            TechSpeed employs a unique onshore and offshore team model that
-            prioritizes customer service with US-based project management and
-            scalable offshore production teams.
-          </p>
-          <p>
-            Our large and growing multinational team of consultants, managers,
-            data specialists and technologists is at the very heart of our
-            success. We foster a culture of continuous learning and strive every
-            day to exceed our clients’ expectations.
+            At <span className="text-[#c7e410]">Workforce Limited</span>, we are the operators. Our team is comprised of
+            the architects of the GST system and the seasoned experts who run it
+            day in and day out. We provide the elite human layer of expertise
+            that makes your technology work flawlessly, transforming your GST
+            function from a compliance risk into a streamlined asset. Stop
+            spending hours on manual reconciliation and data-chasing. Start
+            leveraging your technology to its full potential with the ultimate
+            human oversight.
           </p>
         </div>
 
         {/* Button */}
-        <a
+        {/* <a
           href="/get-started/"
           className="inline-flex items-center gap-3 h-12 px-6 mt-8 rounded-2xl font-mono text-sm md:text-base bg-white text-black hover:bg-[#c7e410] transition"
         >
@@ -66,7 +65,7 @@ const AboutSection = () => {
               />
             </svg>
           </span>
-        </a>
+        </a> */}
       </div>
     </section>
   );

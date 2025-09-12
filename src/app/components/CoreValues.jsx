@@ -3,22 +3,22 @@ import React from "react";
 
 const values = [
   {
-    title: "Accuracy",
+    title: "Flawless Data Reconciliation & ITC Maximization",
     description:
-      "Our process ensures near-perfect data accuracy through double-key data entry, quality checks, validation routines, and verification checks.",
-    image: "/images/Layer_1.png", // replace with your actual path
+      "We eliminate the manual reconciliation burden and safeguard every rupee of your eligible Input Tax Credit. Our team cleanses, verifies, and reconciles GST data, follows up with vendors to protect ITC eligibility, and optimizes claims for complex cases—ensuring healthier cash flow and zero reconciliation stress.",
+    image: "/images/Layer_1.png", 
   },
   {
-    title: "Security",
+    title: "Accurate Return Filing & Audit-Proof Compliance",
     description:
-      "At TechSpeed, we take our role as temporary stewards of your data seriously. Our security systems, including VPNs, SSLs, and PGP encryptions, are compliant with industry standards.",
-    image: "/images/Layer_1-1.png", // replace with your actual path
+      "Our experts guarantee precise, on-time GST return filing while managing e-invoicing, e-way bills, and error corrections. We prepare and defend your records for audits, ensuring zero late fees, no interest penalties, and full audit readiness.",
+    image: "/images/Layer_1-1.png", 
   },
   {
-    title: "Agility",
+    title: "Human Expertise Beyond Software",
     description:
-      "We guarantee 100% on-time delivery for your urgent data needs. Simply share your outsourcing objectives and we'll build a customized solution.",
-    image: "/images/Layer_1-2.png", // replace with your actual path
+      "We bring unmatched GST knowledge that no software can replicate. From advanced advisory on complex rules to real-time monitoring of regulatory changes and rapid troubleshooting, our seasoned operators keep your business fully compliant and strategically prepared.",
+    image: "/images/Layer_1-2.png", 
   },
 ];
 

@@ -159,7 +159,7 @@ export default function Navbar() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                {hovered ? "503-291-0027" : "Give us a Call"}
+                {hovered ? "+919980511980" : "Give us a Call"}
               </motion.span>
               <motion.span
                 className="flex items-center justify-center w-6 h-6 rounded-full text-white"
@@ -213,10 +213,10 @@ export default function Navbar() {
             {/* Buttons */}
             <div className="flex gap-4 px-6 py-6">
               <Link href="/get-started" className="bg-white text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2">
-                Get Started →
+                Get Started <FiArrowRight />
               </Link>
               <a href="tel:5032910027" className="bg-lime-400 text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2">
-                Call Us →
+                Call Us <FiArrowRight />
               </a>
             </div>
 

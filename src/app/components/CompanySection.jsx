@@ -5,19 +5,19 @@ const HeroWithBackground = () => {
   const items = [
     {
       title: "We Are",
-      text: "Built on a culture of data integrity and security.",
+      text: "Hands-on operators managing all aspects of GST processes.",
     },
     {
       title: "We Are",
-      text: "Dedicated to total client satisfaction.",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
     },
     {
       title: "We Are",
-      text: "Anchored by on-shore project management.",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
     },
     {
       title: "We Are",
-      text: "Powered by proprietary technologies.",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
     },
   ];
   return (
@@ -33,18 +33,20 @@ const HeroWithBackground = () => {
       {/* Overlay content */}
       <div className="max-w-screen-2xl mx-auto flex flex-col gap-y-10 items-center py-16 text-center px-4 relative z-10">
         <h1 className="text-4xl sm:text-6xl font-extrabold leading-tight">
-          <span className="inline-block">We</span>{" "}
-          <span className="inline-block">strive</span>{" "}
-          <span className="inline-block">to</span>{" "}
-          <span className="inline-block">be</span>{" "}
-          <span className="inline-block">your</span>
+          <span className="inline-block">GST</span>{" "}
+          <span className="inline-block">Sorted.</span>{" "}
+          <span className="inline-block">For Every buisness,</span>{" "}
+          <span className="inline-block">Every rupee,</span>{" "}
+          <span className="inline-block">Every deadline.</span>
           <br />
-          <span className="inline-block">valued</span>{" "}
-          <span className="inline-block">partner.</span>
+          {/* <span className="inline-block">valued</span>{" "}
+          <span className="inline-block">partner.</span> */}
         </h1>
         <p className="text-lg sm:text-xl max-w-2xl text-black">
-          With innovative data solutions, exceptional customer service and
-          competitive pricing.
+          From startups to conglomerates, we handle your GST filings,
+          reconciliations, notices, and compliance— so you never miss a deadline
+          or lose a night’s sleep. Powered by experts. Driven by trust. Built
+          for Bharat.
         </p>
       </div>
       <div className="max-w-screen-xl mx-auto relative mt-[100px] px-4">

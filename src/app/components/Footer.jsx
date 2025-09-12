@@ -13,23 +13,21 @@ const Footer = () => {
         {/* Left Content */}
         <div className="flex-1 order-2 md:order-1 p-[80px]">
           <h3 className="text-2xl md:text-4xl text-orange-500">
-            Smart outsourcing using a perfect blend of people and technology.
+            Transform Your GST Compliance Today
           </h3>
           <p className="mt-4  max-w-2xl text-orange-500">
-            100% on-time delivery guaranteed. You need it quick, fast,
-            yesterday. We understand. Tell us your data entry outsourcing
-            objectives and we will build a data solution customized to your
-            needs.
+            Ready to stop fighting with your GST software and start experiencing
+            flawless compliance with the ultimate operators?
           </p>
           <div className="flex gap-4 mt-6">
             <Link
               href="/get-started"
               className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-2xl font-medium hover:bg-[#c7e410] transition"
             >
-              Get Started  <FiArrowRight size={16} />
+              Get Started <FiArrowRight size={16} />
             </Link>
             <motion.a
-              href="tel:5032910027"
+              href="tel:9980511980"
               onHoverStart={() => setHovered(true)}
               onHoverEnd={() => setHovered(false)}
               className="relative hidden md:flex items-center rounded-full overflow-hidden px-4 py-2 cursor-pointer"
@@ -40,7 +38,11 @@ const Footer = () => {
                 animate={{ x: hovered ? "0%" : "100%" }}
                 transition={{ duration: 0.4, ease: "easeInOut" }}
               />
-              <span className={`relative flex items-center justify-between w-full gap-2 text-[${hovered ? "#000" : "#c7e410"}] font-medium`}>
+              <span
+                className={`relative flex items-center justify-between w-full gap-2 text-[${
+                  hovered ? "#000" : "#c7e410"
+                }] font-medium`}
+              >
                 <motion.span
                   key={hovered ? "number" : "text"}
                   initial={{ opacity: 0, x: 20 }}
@@ -48,7 +50,7 @@ const Footer = () => {
                   exit={{ opacity: 0, x: -20 }}
                   transition={{ duration: 0.3 }}
                 >
-                  {hovered ? "503-291-0027" : "Give us a Call"}
+                  {hovered ? "+919980511980" : "Give us a Call"}
                 </motion.span>
                 <motion.span
                   className="flex items-center justify-center w-6 h-6 rounded-full text-white"
