@@ -21,13 +21,13 @@ const Footer = () => {
           </p>
           <div className="flex gap-4 mt-6">
             <Link
-              href="/get-started"
+              href="mailto:hello@unigst.com?subject=GST%20Consultation&body=Hi%20Team,%0A%0AI%20would%20like%20to%20get%20started%20with%20your%20GST%20services.%0A%0AThanks."
               className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-2xl font-medium hover:bg-[#c7e410] transition"
             >
               Get Started <FiArrowRight size={16} />
             </Link>
             <motion.a
-              href="tel:9980511980"
+              href="tel:+919980511980"
               onHoverStart={() => setHovered(true)}
               onHoverEnd={() => setHovered(false)}
               className="relative hidden md:flex items-center rounded-full overflow-hidden px-4 py-2 cursor-pointer"

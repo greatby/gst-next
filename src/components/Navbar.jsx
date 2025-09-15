@@ -2,7 +2,13 @@
 import Link from "next/link";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FiMenu, FiX, FiChevronDown, FiChevronUp, FiArrowRight } from "react-icons/fi";
+import {
+  FiMenu,
+  FiX,
+  FiChevronDown,
+  FiChevronUp,
+  FiArrowRight,
+} from "react-icons/fi";
 
 const navItems = [
   {
@@ -14,8 +20,14 @@ const navItems = [
         image: "/images/home-col-1.png",
         links: [
           { label: "AI Data Extraction", href: "/services/ai-data-extraction" },
-          { label: "AI Assisted Data Processing", href: "/services/ai-assisted-data-processing" },
-          { label: "AI & ML Optimization", href: "/services/ai-ml-optimization" },
+          {
+            label: "AI Assisted Data Processing",
+            href: "/services/ai-assisted-data-processing",
+          },
+          {
+            label: "AI & ML Optimization",
+            href: "/services/ai-ml-optimization",
+          },
         ],
       },
       {
@@ -31,7 +43,10 @@ const navItems = [
         title: "CUSTOMER EXPERIENCES",
         image: "/images/home-col-3.png",
         links: [
-          { label: "Back Office Support", href: "/services/back-office-support" },
+          {
+            label: "Back Office Support",
+            href: "/services/back-office-support",
+          },
           { label: "Service Desk & Chat", href: "/services/service-desk-chat" },
           { label: "Content Moderation", href: "/services/content-moderation" },
         ],
@@ -53,7 +68,7 @@ const navItems = [
     links: [
       { label: "About", href: "/about" },
       { label: "Pricing", href: "/pricing" },
- 
+
       { label: "FAQ", href: "/faq" },
     ],
   },
@@ -72,7 +87,11 @@ export default function Navbar() {
         {/* Left: Logo + Nav */}
         <div className="flex items-center gap-12">
           <Link href="/" className="flex items-center">
-            <img src="images/UNIGST.png" alt="Techspeed Logo" className="w-[100px] h-auto" />
+            <img
+              src="images/UNIGST.png"
+              alt="Techspeed Logo"
+              className="w-[100px] h-auto"
+            />
           </Link>
 
           {/* Desktop Nav */}
@@ -102,13 +121,25 @@ export default function Navbar() {
                       {item.type === "mega" ? (
                         <div className="grid grid-cols-3 gap-8 p-8 w-[60rem]">
                           {item.columns.map((col) => (
-                            <div key={col.title} className="border-r last:border-none pr-6">
-                              <div className="text-xs font-semibold uppercase mb-4">{col.title}</div>
-                              <img src={col.image} alt={col.title} className="h-24 object-contain mb-4" />
+                            <div
+                              key={col.title}
+                              className="border-r last:border-none pr-6"
+                            >
+                              <div className="text-xs font-semibold uppercase mb-4">
+                                {col.title}
+                              </div>
+                              <img
+                                src={col.image}
+                                alt={col.title}
+                                className="h-24 object-contain mb-4"
+                              />
                               <ul className="space-y-2">
                                 {col.links.map((link) => (
                                   <li key={link.href}>
-                                    <Link href={link.href} className="text-sm hover:text-lime-600 transition">
+                                    <Link
+                                      href={link.href}
+                                      className="text-sm hover:text-lime-600 transition"
+                                    >
                                       {link.label}
                                     </Link>
                                   </li>
@@ -121,7 +152,10 @@ export default function Navbar() {
                         <ul className="p-6 w-64 space-y-3">
                           {item.links.map((link) => (
                             <li key={link.href}>
-                              <Link href={link.href} className="text-sm hover:text-lime-600 transition">
+                              <Link
+                                href={link.href}
+                                className="text-sm hover:text-lime-600 transition"
+                              >
                                 {link.label}
                               </Link>
                             </li>
@@ -140,7 +174,7 @@ export default function Navbar() {
         <div className="flex items-center gap-6">
           {/* Call link with hover animation */}
           <motion.a
-            href="tel:5032910027"
+            href="tel:+919980511980"
             onHoverStart={() => setHovered(true)}
             onHoverEnd={() => setHovered(false)}
             className="relative hidden md:flex items-center rounded-full overflow-hidden px-4 py-2 cursor-pointer"
@@ -173,17 +207,20 @@ export default function Navbar() {
 
           {/* Get Started */}
           <Link
-            href="/get-started"
+            href={`mailto:hello@unigst.com?subject=GST%20Consultation&body=Hi%20Team,%0A%0AI%20would%20like%20to%20get%20started%20with%20your%20GST%20services.%0A%0AThanks.`}
             className="hidden md:flex items-center gap-2 px-5 py-2 rounded-lg bg-[#460021] text-white text-sm font-semibold hover:bg-[#5d002d] transition"
           >
-            <span>Get Started</span>
+            <span>Email Us</span>
             <span className="flex items-center justify-center w-6 h-6 rounded-full bg-[#c7e410] text-black">
               <FiArrowRight />
             </span>
           </Link>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden text-2xl" onClick={() => setMobileOpen(true)}>
+          <button
+            className="md:hidden text-2xl"
+            onClick={() => setMobileOpen(true)}
+          >
             <FiMenu />
           </button>
         </div>
@@ -201,7 +238,11 @@ export default function Navbar() {
           >
             {/* Top Row */}
             <div className="flex justify-between items-center px-6 py-4 bg-purple-400">
-              <img src="images/UNIGST.png" alt="Techspeed Logo" className="h-auto w-[100px]" />
+              <img
+                src="images/UNIGST.png"
+                alt="Techspeed Logo"
+                className="h-auto w-[100px]"
+              />
               <button
                 className="text-2xl p-2 rounded-full bg-[#4a004a] text-lime-300"
                 onClick={() => setMobileOpen(false)}
@@ -212,10 +253,16 @@ export default function Navbar() {
 
             {/* Buttons */}
             <div className="flex gap-4 px-6 py-6">
-              <Link href="/get-started" className="bg-white text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2">
+              <Link
+                href="/get-started"
+                className="bg-white text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2"
+              >
                 Get Started <FiArrowRight />
               </Link>
-              <a href="tel:5032910027" className="bg-lime-400 text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2">
+              <a
+                href="tel:5032910027"
+                className="bg-lime-400 text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2"
+              >
                 Call Us <FiArrowRight />
               </a>
             </div>
@@ -224,13 +271,24 @@ export default function Navbar() {
             <div className="flex-1 overflow-y-auto px-6 space-y-6">
               {navItems.map((item) =>
                 item.type === "mega" || item.type === "list" ? (
-                  <div key={item.name} className="border-t border-orange-500 pt-4">
+                  <div
+                    key={item.name}
+                    className="border-t border-orange-500 pt-4"
+                  >
                     <button
                       className="flex items-center justify-between w-full text-lg font-medium"
-                      onClick={() => setOpenAccordion(openAccordion === item.name ? null : item.name)}
+                      onClick={() =>
+                        setOpenAccordion(
+                          openAccordion === item.name ? null : item.name
+                        )
+                      }
                     >
                       {item.name}
-                      {openAccordion === item.name ? <FiChevronUp /> : <FiChevronDown />}
+                      {openAccordion === item.name ? (
+                        <FiChevronUp />
+                      ) : (
+                        <FiChevronDown />
+                      )}
                     </button>
                     <AnimatePresence>
                       {openAccordion === item.name && (
@@ -241,9 +299,15 @@ export default function Navbar() {
                           transition={{ duration: 0.3 }}
                           className="mt-2 pl-4 space-y-2"
                         >
-                          {(item.type === "mega" ? item.columns.flatMap((c) => c.links) : item.links).map((link) => (
+                          {(item.type === "mega"
+                            ? item.columns.flatMap((c) => c.links)
+                            : item.links
+                          ).map((link) => (
                             <li key={link.href}>
-                              <Link href={link.href} className="block text-base text-white">
+                              <Link
+                                href={link.href}
+                                className="block text-base text-white"
+                              >
                                 {link.label}
                               </Link>
                             </li>
@@ -253,8 +317,14 @@ export default function Navbar() {
                     </AnimatePresence>
                   </div>
                 ) : (
-                  <div key={item.name} className="border-t border-orange-500 pt-4">
-                    <Link href={item.href} className="text-lg font-medium block">
+                  <div
+                    key={item.name}
+                    className="border-t border-orange-500 pt-4"
+                  >
+                    <Link
+                      href={item.href}
+                      className="text-lg font-medium block"
+                    >
                       {item.name}
                     </Link>
                   </div>
@@ -267,4 +337,3 @@ export default function Navbar() {
     </header>
   );
 }
-
