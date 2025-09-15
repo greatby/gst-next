@@ -254,13 +254,13 @@ export default function Navbar() {
             {/* Buttons */}
             <div className="flex gap-4 px-6 py-6">
               <Link
-                href="/get-started"
+                href="mailto:hello@unigst.com?subject=GST%20Consultation&body=Hi%20Team,%0A%0AI%20would%20like%20to%20get%20started%20with%20your%20GST%20services.%0A%0AThanks."
                 className="bg-white text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2"
               >
-                Get Started <FiArrowRight />
+                Email Us <FiArrowRight />
               </Link>
               <a
-                href="tel:5032910027"
+                href="tel:+919980511980"
                 className="bg-lime-400 text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2"
               >
                 Call Us <FiArrowRight />
