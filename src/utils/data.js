@@ -576,12 +576,6 @@ taxed at a lower rate of 12% if the services are related to a governmental
 function.`,
   },
   {
-    question: "GST on government works contracts.",
-    answer: `GST on works contracts for the government or local authorities is
-taxed at a lower rate of 12% if the services are related to a governmental
-function.`,
-  },
-  {
     question: "What is GST on civil engineering projects?",
     answer: `Civil engineering services are classified as works contracts and
 are typically taxed at 18%.`,

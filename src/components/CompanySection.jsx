@@ -108,7 +108,7 @@ const HeroWithBackground = () => {
             <br />
             Every rupee, Every deadline.
           </h1>
-          <p className="text-base sm:text-lg md:text-[1rem] max-w-2xl text-black">
+          <p className="text-base sm:text-lg md:text-[1rem] max-w-2xl text-black mb-0 md:mb-[40px]">
             From startups to conglomerates, we handle your GST filings,
             reconciliations, notices, and compliance—so you never miss a
             deadline or lose a night’s sleep. Powered by experts. Driven by
