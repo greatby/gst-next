@@ -5,6 +5,7 @@ import ProcessSection from "@/components/ProcessSection";
 import CompanySection from "@/components/CompanySection"
 import React from "react";
 import Footer from "@/components/Footer";
+import TeamSection from "@/components/TeamSection";
 
 
 const Page = () => {
@@ -16,6 +17,7 @@ const Page = () => {
         <AboutSection/>
         <ProcessSection/>
         <CoreValues/>
+        {/* <TeamSection /> */}
         <Footer/>
       </section>
     </>

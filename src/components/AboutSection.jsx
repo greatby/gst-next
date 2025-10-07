@@ -34,7 +34,7 @@ const AboutSection = () => {
             every nuance, it’s just a costly tool waiting for a mistake.
           </p>
           <p>
-            At <span className="text-[#c7e410]">Workforce Limited</span>, we are the operators. Our team is comprised of
+            At <span className="text-[#c7e410]">UNIGST.COM</span>, we are the operators. Our team is comprised of
             the architects of the GST system and the seasoned experts who run it
             day in and day out. We provide the elite human layer of expertise
             that makes your technology work flawlessly, transforming your GST

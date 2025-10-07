@@ -3,15 +3,22 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { FiArrowRight } from "react-icons/fi";
+import {
+  FaLinkedinIn,
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa";
 
 const Footer = () => {
   const [hovered, setHovered] = useState(false);
   return (
     <footer className="bg-wine relative text-white overflow-hidden ">
       {/* Top Section */}
-      <div className="relative mx-auto pt-16 py-16 sm:py-0 flex flex-col md:flex-row md:items-start gap-12">
+      <div className="relative max-w-[90rem] mx-auto pt-16 py-16 sm:py-0 flex flex-col md:flex-row md:items-start gap-12">
         {/* Left Content */}
-        <div className="flex-1 order-2 md:order-1 p-[80px]">
+        <div className="flex-1 order-2 md:order-1 p-[20px] md:p-[80px]">
           <h3 className="text-2xl md:text-4xl text-orange-500">
             Transform Your GST Compliance Today
           </h3>
@@ -30,7 +37,7 @@ const Footer = () => {
               href="tel:+919980511980"
               onHoverStart={() => setHovered(true)}
               onHoverEnd={() => setHovered(false)}
-              className="relative hidden md:flex items-center rounded-full overflow-hidden px-4 py-2 cursor-pointer"
+              className="relative md:flex items-center rounded-full overflow-hidden px-4 py-2 cursor-pointer"
             >
               <motion.span
                 className="absolute inset-0 bg-[#c7e410]"
@@ -75,46 +82,7 @@ const Footer = () => {
       </div>
 
       {/* Middle Section (Links + Contact) */}
-      <div className="max-w-[90rem] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12 border-t border-orange-500">
-        {/* Column 1 */}
-        <div>
-          <h4 className="uppercase text-purple text-sm">Solutions</h4>
-          <ul className="mt-4 space-y-2 text-sm text-gray-300">
-            <li>
-              <Link href="/services/ai-data-extraction">
-                AI Data Extraction
-              </Link>
-            </li>
-            <li>
-              <Link href="/services/ai-assisted-data-processing">
-                AI Assisted Data Processing
-              </Link>
-            </li>
-            <li>
-              <Link href="/services/ai-ml-optimization">
-                AI & ML Optimization
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Column 2 */}
-        <div>
-          <h4 className="uppercase text-purple text-sm">Resources</h4>
-          <ul className="mt-4 space-y-2 text-sm text-gray-300">
-            <li>
-              <Link href="/cases">Case Studies</Link>
-            </li>
-            <li>
-              <Link href="/startup-support">Business Startup Support</Link>
-            </li>
-            <li>
-              <Link href="/blog">TechSpeed Blog</Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Column 3 */}
+      {/* <div className="max-w-[90rem] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12 border-t border-orange-500">
         <div>
           <h4 className="uppercase text-purple text-sm">Get In Touch</h4>
           <ul className="mt-4 space-y-2 text-sm text-gray-300">
@@ -129,10 +97,81 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="tel:503-927-0027">503-927-0027</a>
+              <a href="tel:+91 99805 11980">+91 99805 11980</a>
             </li>
             <li>
-              <a href="mailto:info@techspeed.com">info@techspeed.com</a>
+              <a href="mailto:hello@unigst.com">hello@unigst.com</a>
+            </li>
+          </ul>
+        </div>
+      </div> */}
+      <div className="max-w-[90rem] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12 border-t border-orange-500">
+        {/* Social Section */}
+        <div>
+          <h4 className="uppercase text-purple text-sm">Social</h4>
+          <div className="mt-4 flex items-center gap-4 text-gray-300">
+            <a
+              href="https://www.linkedin.com/company/unigst"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[rgb(209,244,112)] transition"
+            >
+              <FaLinkedinIn size={18} />
+            </a>
+            <a
+              href="https://www.facebook.com/unigst"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[rgb(209,244,112)] transition"
+            >
+              <FaFacebookF size={18} />
+            </a>
+            <a
+              href="https://twitter.com/unigst"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[rgb(209,244,112)] transition"
+            >
+              <FaTwitter size={18} />
+            </a>
+            <a
+              href="https://www.instagram.com/unigst"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[rgb(209,244,112)] transition"
+            >
+              <FaInstagram size={18} />
+            </a>
+            <a
+              href="https://www.youtube.com/@unigst"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-[rgb(209,244,112)] transition"
+            >
+              <FaYoutube size={18} />
+            </a>
+          </div>
+        </div>
+
+        {/* Get In Touch Section */}
+        <div>
+          <h4 className="uppercase text-purple text-sm">Get In Touch</h4>
+          <ul className="mt-4 space-y-2 text-sm text-gray-300">
+            <li>
+              Headquarters - USA <br />
+              <a
+                href="https://goo.gl/maps/example"
+                target="_blank"
+                rel="noreferrer"
+              >
+                1300 SW 6th Ave, Portland OR 97201
+              </a>
+            </li>
+            <li>
+              <a href="tel:+919980511980">+91 99805 11980</a>
+            </li>
+            <li>
+              <a href="mailto:hello@unigst.com">hello@unigst.com</a>
             </li>
           </ul>
         </div>

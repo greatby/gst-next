@@ -90,18 +90,18 @@ const HeroWithBackground = () => {
       {/* ---------- HERO ---------- */}
       <section className="relative w-full bg-white mt-0 sm:mt-[30px]">
         {/* Background image */}
-        <div className="absolute inset-0 flex justify-center">
+        {/* <div className="absolute inset-0 flex justify-center">
           <img
             src="images/hero-bg.png"
             alt="Hero background"
             className="w-full max-w-screen-2xl object-cover hidden md:block"
           />
-        </div>
+        </div> */}
 
         {/* Centered text */}
         <div
           className="w-full flex flex-col gap-y-5 items-center
-                  py-20 text-center px-4 sm:px-6 lg:px-8 relative z-10"
+                  pt-20 text-center px-4 sm:px-6 lg:px-8 relative z-10"
         >
           <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
             GST Sorted. For Every business,

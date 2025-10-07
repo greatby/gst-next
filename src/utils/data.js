@@ -232,7 +232,7 @@ unit claims a refund) or supply under a Letter of Undertaking (LUT) without
 paying any tax.`,
   },
   {
-    question: "GST on job work.",
+    question: "GST on job work?",
     answer: `GST is applicable on job work services, typically at the 18% rate.
 The principal manufacturer can send goods to a job worker without paying
 tax, as long as the goods are returned within a specific period.`,

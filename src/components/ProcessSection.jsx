@@ -47,7 +47,7 @@ const ProcessSection = () => {
       {/* Heading */}
       <div className="flex flex-col gap-y-6 text-center items-center max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-white">
-          Your Solution: Workforce Limited, The Ultimate GST Operator
+          Your Solution: UNIGST.COM, The Ultimate GST Operator
         </h2>
         <p className="text-gray-200 text-lg">
           Our service is not just about using software; it's about providing the

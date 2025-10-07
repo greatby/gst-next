@@ -9,71 +9,72 @@ import {
   FiChevronUp,
   FiArrowRight,
 } from "react-icons/fi";
+import { IoLogoWhatsapp } from "react-icons/io";
 
-const navItems = [
-  {
-    name: "Solutions",
-    type: "mega",
-    columns: [
-      {
-        title: "AI DRIVEN PROCESSING",
-        image: "/images/home-col-1.png",
-        links: [
-          { label: "AI Data Extraction", href: "/services/ai-data-extraction" },
-          {
-            label: "AI Assisted Data Processing",
-            href: "/services/ai-assisted-data-processing",
-          },
-          {
-            label: "AI & ML Optimization",
-            href: "/services/ai-ml-optimization",
-          },
-        ],
-      },
-      {
-        title: "DATA SERVICES",
-        image: "/images/home-col-2.png",
-        links: [
-          { label: "Data Entry", href: "/services/data-entry" },
-          { label: "Data Processing", href: "/services/data-processing" },
-          { label: "Data Mining", href: "/services/data-mining" },
-        ],
-      },
-      {
-        title: "CUSTOMER EXPERIENCES",
-        image: "/images/home-col-3.png",
-        links: [
-          {
-            label: "Back Office Support",
-            href: "/services/back-office-support",
-          },
-          { label: "Service Desk & Chat", href: "/services/service-desk-chat" },
-          { label: "Content Moderation", href: "/services/content-moderation" },
-        ],
-      },
-    ],
-  },
-  // {
-  //   name: "Resources",
-  //   type: "list",
-  //   links: [
-  //     { label: "Case Studies", href: "/cases" },
-  //     { label: "Business Startup Support", href: "/startup-support" },
-  //     { label: "Blog", href: "/blog" },
-  //   ],
-  // },
-  {
-    name: "About",
-    type: "list",
-    links: [
-      { label: "About", href: "/about" },
-      { label: "Pricing", href: "/pricing" },
+// const navItems = [
+//   {
+//     name: "Solutions",
+//     type: "mega",
+//     columns: [
+//       {
+//         title: "AI DRIVEN PROCESSING",
+//         image: "/images/home-col-1.png",
+//         links: [
+//           { label: "AI Data Extraction", href: "/services/ai-data-extraction" },
+//           {
+//             label: "AI Assisted Data Processing",
+//             href: "/services/ai-assisted-data-processing",
+//           },
+//           {
+//             label: "AI & ML Optimization",
+//             href: "/services/ai-ml-optimization",
+//           },
+//         ],
+//       },
+//       {
+//         title: "DATA SERVICES",
+//         image: "/images/home-col-2.png",
+//         links: [
+//           { label: "Data Entry", href: "/services/data-entry" },
+//           { label: "Data Processing", href: "/services/data-processing" },
+//           { label: "Data Mining", href: "/services/data-mining" },
+//         ],
+//       },
+//       {
+//         title: "CUSTOMER EXPERIENCES",
+//         image: "/images/home-col-3.png",
+//         links: [
+//           {
+//             label: "Back Office Support",
+//             href: "/services/back-office-support",
+//           },
+//           { label: "Service Desk & Chat", href: "/services/service-desk-chat" },
+//           { label: "Content Moderation", href: "/services/content-moderation" },
+//         ],
+//       },
+//     ],
+//   },
+//   // {
+//   //   name: "Resources",
+//   //   type: "list",
+//   //   links: [
+//   //     { label: "Case Studies", href: "/cases" },
+//   //     { label: "Business Startup Support", href: "/startup-support" },
+//   //     { label: "Blog", href: "/blog" },
+//   //   ],
+//   // },
+//   {
+//     name: "About",
+//     type: "list",
+//     links: [
+//       { label: "About", href: "/about" },
+//       { label: "Pricing", href: "/pricing" },
 
-      { label: "FAQ", href: "/faq" },
-    ],
-  },
-  // { name: "Success Stories", type: "link", href: "/success-stories" },
-];
+//       { label: "FAQ", href: "/faq" },
+//     ],
+//   },
+//   // { name: "Success Stories", type: "link", href: "/success-stories" },
+// ];
 
 export default function Navbar() {
   const [open, setOpen] = useState(null);
@@ -95,7 +96,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-10 text-sm font-medium text-gray-900 relative">
+          {/* <nav className="hidden md:flex items-center gap-10 text-sm font-medium text-gray-900 relative">
             {navItems.map((item) => (
               <div
                 key={item.name}
@@ -108,7 +109,7 @@ export default function Navbar() {
                   <motion.span className="absolute -bottom-1 left-0 h-[2px] w-full bg-[#460021] origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300" />
                 </Link>
 
-                {/* Dropdown */}
+              
                 <AnimatePresence>
                   {open === item.name && item.type !== "link" && (
                     <motion.div
@@ -167,12 +168,36 @@ export default function Navbar() {
                 </AnimatePresence>
               </div>
             ))}
-          </nav>
+          </nav> */}
         </div>
 
         {/* Right: CTA */}
         <div className="flex items-center gap-6">
+          <button
+            onClick={() => {
+              const phone = "919980511980";
+              const text = encodeURIComponent(
+                "Hello UNIGST,\n\n" +
+                  "I’d like to know more about your compliance services.\n\n" +
+                  "Company Name:\n" +
+                  "No. of Employees:\n" +
+                  "My Role:\n" +
+                  "Areas of Interest:"
+              );
+              window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
+            }}
+            className="group hidden md:flex relative px-5 py-2 cursor-pointer items-center justify-center gap-2 rounded-lg bg-[#c7e410] sm:px-4 text-black shadow-lg transition"
+          >
+            <IoLogoWhatsapp className="size-4 sm:size-5 transition-transform sm:group-hover:scale-0" />
+            <span className="hidden sm:inline transition-opacity sm:group-hover:opacity-0">
+              WhatsApp
+            </span>
+            <span className="absolute hidden sm:inline opacity-0 transition-opacity sm:group-hover:opacity-100">
+              +91 99805 11980
+            </span>
+          </button>
           {/* Call link with hover animation */}
+
           <motion.a
             href="tel:+919980511980"
             onHoverStart={() => setHovered(true)}
@@ -252,7 +277,7 @@ export default function Navbar() {
             </div>
 
             {/* Buttons */}
-            <div className="flex gap-4 px-6 py-6">
+            <div className="flex gap-4 px-6 py-6 flex-col">
               <Link
                 href="mailto:hello@unigst.com?subject=GST%20Consultation&body=Hi%20Team,%0A%0AI%20would%20like%20to%20get%20started%20with%20your%20GST%20services.%0A%0AThanks."
                 className="bg-white text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2"
@@ -265,10 +290,33 @@ export default function Navbar() {
               >
                 Call Us <FiArrowRight />
               </a>
+              <button
+                onClick={() => {
+                  const phone = "919980511980";
+                  const text = encodeURIComponent(
+                    "Hello UNIGST,\n\n" +
+                      "I’d like to know more about your compliance services.\n\n" +
+                      "Company Name:\n" +
+                      "No. of Employees:\n" +
+                      "My Role:\n" +
+                      "Areas of Interest:"
+                  );
+                  window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
+                }}
+                className="group relative px-5 py-2 flex px cursor-pointer items-center gap-2 rounded-[16px] bg-lime-400 sm:px-4 text-black shadow-lg transition"
+              >
+                <IoLogoWhatsapp className="size-5 sm:size-6 transition-transform sm:group-hover:scale-0" />
+                <span className=" transition-opacity sm:group-hover:opacity-0">
+                  WhatsApp
+                </span>
+                {/* <span className="absolute hidden sm:inline opacity-0 transition-opacity sm:group-hover:opacity-100">
+                  +91 99805 11980
+                </span> */}
+              </button>
             </div>
 
             {/* Accordion Nav */}
-            <div className="flex-1 overflow-y-auto px-6 space-y-6">
+            {/* <div className="flex-1 overflow-y-auto px-6 space-y-6">
               {navItems.map((item) =>
                 item.type === "mega" || item.type === "list" ? (
                   <div
@@ -330,7 +378,7 @@ export default function Navbar() {
                   </div>
                 )
               )}
-            </div>
+            </div> */}
           </motion.div>
         )}
       </AnimatePresence>
