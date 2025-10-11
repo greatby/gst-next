@@ -14,7 +14,7 @@ import {
 const Footer = () => {
   const [hovered, setHovered] = useState(false);
   return (
-    <footer className="bg-wine relative text-white overflow-hidden ">
+    <footer className="bg-[#3a0820] relative text-white overflow-hidden ">
       {/* Top Section */}
       <div className="relative max-w-[90rem] mx-auto pt-16 py-16 sm:py-0 flex flex-col md:flex-row md:items-start gap-12">
         {/* Left Content */}
@@ -111,14 +111,14 @@ const Footer = () => {
           <h4 className="uppercase text-purple text-sm">Social</h4>
           <div className="mt-4 flex items-center gap-4 text-gray-300">
             <a
-              href="https://www.linkedin.com/company/unigst"
+              href="https://www.linkedin.com/unigst"
               target="_blank"
               rel="noreferrer"
               className="hover:text-[rgb(209,244,112)] transition"
             >
               <FaLinkedinIn size={18} />
             </a>
-            <a
+            {/* <a
               href="https://www.facebook.com/unigst"
               target="_blank"
               rel="noreferrer"
@@ -133,23 +133,23 @@ const Footer = () => {
               className="hover:text-[rgb(209,244,112)] transition"
             >
               <FaTwitter size={18} />
-            </a>
+            </a> */}
             <a
-              href="https://www.instagram.com/unigst"
+              href="https://www.instagram.com/unigstindia"
               target="_blank"
               rel="noreferrer"
               className="hover:text-[rgb(209,244,112)] transition"
             >
               <FaInstagram size={18} />
             </a>
-            <a
+            {/* <a
               href="https://www.youtube.com/@unigst"
               target="_blank"
               rel="noreferrer"
               className="hover:text-[rgb(209,244,112)] transition"
             >
               <FaYoutube size={18} />
-            </a>
+            </a> */}
           </div>
         </div>
 

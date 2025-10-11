@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 
-const AboutSection = () => {
+const AboutSection = ({data}) => {
   return (
-    <section className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center py-36 gap-12 mt-10 lg:mt-24 mb-20 lg:mb-28 px-4">
+    <section className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center py-36 gap-12 mt-10 lg:mt-24 px-4">
       {/* Left side */}
       <figure className="relative flex-1 w-full max-w-md">
         <div className="relative w-full">
@@ -20,28 +20,16 @@ const AboutSection = () => {
       {/* Right side */}
       <div className="flex flex-col items-start w-full lg:max-w-2xl mt-10 lg:mt-0">
         <h3 className="text-3xl md:text-4xl font-bold text-white leading-tight">
-          <span className="block">Human Expertise That Powers Your GST Technology</span>
+          <span className="block">{data.title}</span>
           
         </h3>
 
         <div className="mt-6 text-white space-y-4">
           <p>
-            You have Tally, Zoho, or an ERP system. They're powerful machines
-            for GST compliance. But every month, you still face the same manual
-            nightmares: data reconciliation, invoice mismatches, and the fear of
-            a compliance audit. The truth is, technology is only half the
-            solution. Without a masterful operator who understands the machine's
-            every nuance, it’s just a costly tool waiting for a mistake.
+       {data.description}
           </p>
           <p>
-            At <span className="text-[#c7e410]">UNIGST.COM</span>, we are the operators. Our team is comprised of
-            the architects of the GST system and the seasoned experts who run it
-            day in and day out. We provide the elite human layer of expertise
-            that makes your technology work flawlessly, transforming your GST
-            function from a compliance risk into a streamlined asset. Stop
-            spending hours on manual reconciliation and data-chasing. Start
-            leveraging your technology to its full potential with the ultimate
-            human oversight.
+            At <span className="text-[#c7e410]">UNIGST.COM</span>, {data.subDesc}
           </p>
         </div>
 

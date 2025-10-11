@@ -810,54 +810,54 @@ GSTR-2B to ensure all ITC is available and claimed correctly.`,
     answer: `Rule 36(4) restricts the amount of provisional ITC that can be
 claimed if the invoices are not uploaded by the supplier.`,
   },
-    {
+  {
     question: "Is GST applicable on a supply from an unregistered dealer?",
     answer: `Yes, under the Reverse Charge Mechanism (RCM), if a
 registered person receives goods or services from an unregistered dealer,
 the recipient is liable to pay the GST.`,
   },
-      {
+  {
     question: "How does the GST portal track my compliance rating?",
     answer: `The GST portal uses a compliance rating system to assess the
 taxpayer's compliance level based on their return filing and tax payment
 history.`,
   },
-     {
+  {
     question: "How to register for GST online?",
     answer: `Visit the official GST portal (www.gst.gov.in), click on 'Services' ->
 'Registration' -> 'New Registration', fill out Part A with your PAN, mobile number,
 and email. Verify with OTPs to get your Temporary Reference Number (TRN).`,
   },
-    {
+  {
     question: "What is a Temporary Reference Number (TRN)?",
     answer: `A TRN is a unique number generated after successfully submitting Part
 A of the GST registration application. It is valid for 15 days and is used to
 complete Part B of the application.`,
   },
-    {
+  {
     question: "How do I check the status of my GST registration application?",
     answer: `Use the TRN or ARN (Application Reference Number) on the 'Track
 Application Status' tab on the GST portal to check the status of your application.`,
   },
-    {
+  {
     question: "What is an Application Reference Number (ARN)?",
     answer: `An ARN is a 15-digit number generated after you submit the complete
 registration application. It is sent to your registered email and mobile number and
 is used for all future correspondence.`,
   },
-    {
+  {
     question: "How to register as a Composition Dealer?",
     answer: `While filing the new registration form, a taxpayer needs to select
 'Composition' under the 'Type of Registration' field. This can be done if their
 turnover is below the specified limit.`,
   },
-   {
+  {
     question: "What is a GST Suvidha Provider (GSP)?",
     answer: `A GSP is an authorized third-party service provider that helps
 taxpayers with GST-related services like filing returns, generating e-way bills, and
 other compliance activities.`,
   },
-   {
+  {
     question: "How to get the GST registration certificate (REG-06)?",
     answer: `Once your registration application is approved, the GSTIN and the
 registration certificate are sent to your email. You can also download it from the
@@ -869,39 +869,40 @@ registration certificate are sent to your email. You can also download it from t
 main dashboard. Alternatively, you can use the 'Search Taxpayer by PAN' service
 to find your GSTIN.`,
   },
-   {
-    question: "How to apply for a GST registration for a non-resident taxable person?",
+  {
+    question:
+      "How to apply for a GST registration for a non-resident taxable person?",
     answer: `Non-resident taxable persons have to apply for registration through a
 special portal and are not subject to the general registration threshold limits.`,
   },
-   {
+  {
     question: "How to update my email ID and mobile number on the GST portal?",
     answer: `Log in to your GST account, go to 'Services' -> 'Registration' ->
 'Amendment of Registration Core Fields'. You will receive an OTP on your old
 and new contact details for verification.`,
   },
-    {
+  {
     question: "Can I change my registered business address on the GST portal?",
     answer: `Yes, you can. It's a 'core field' amendment and requires the submission
 of supporting documents for the new address.`,
   },
-     {
+  {
     question: "How to update bank account details on the GST portal?",
     answer: `This is a 'non-core field' amendment. You can update it by logging in to
 your account, without needing approval from a tax officer.`,
   },
-     {
+  {
     question: "How to add an authorized signatory to my GST profile?",
     answer: `You can add or remove an authorized signatory by filing a 'non-core
 field' amendment. The new signatory will need to be verified with a DSC or EVC.`,
   },
-    {
+  {
     question: "What is the 'My Profile' section on the GST portal?",
     answer: `The 'My Profile' section contains all the registered information of the
 taxpayer, including their business name, address, contact details, and bank
 account information.`,
   },
-   {
+  {
     question: "What is the role of a Digital Signature Certificate (DSC)?",
     answer: `A DSC is a secure digital key used for electronically signing
 documents. It is mandatory for companies and LLPs to file returns and other
@@ -913,194 +914,280 @@ forms on the GST portal.`,
 need a valid Class 2 or Class 3 DSC and the emSigner utility to be installed on
 your system.`,
   },
-   {
+  {
     question: "I forgot my GST portal password. How do I recover it?",
     answer: `Click on 'Forgot Password' on the login page. You will receive an OTP
 on your registered email and mobile number to set a new password.`,
   },
-    {
+  {
     question: "How to change my GST portal security questions?",
     answer: `Security questions are used for password recovery. You can change
 them by logging into your account and navigating to the 'Change Security
 Questions' tab.`,
   },
-    {
+  {
     question: "What is an EVC?",
     answer: `EVC stands for Electronic Verification Code. It is an OTP sent to your
 registered mobile number and email ID, used to authenticate the filing of GST
 returns and other forms.`,
   },
-   {
+  {
     question: "How to reset the security questions if I forgot them?",
     answer: `You can't reset security questions directly. If you forget both your
 password and security questions, you need to contact the GST helpdesk for
 assistance.`,
   },
-     {
+  {
     question: "How to cancel my GST registration?",
     answer: `You can apply for cancellation of GST registration online by filing Form
 REG-16. This is possible if your business has ceased operations or your turnover
 is below the threshold.`,
   },
-    {
-    question: "What is the difference between voluntary and suo-moto cancellation?",
+  {
+    question:
+      "What is the difference between voluntary and suo-moto cancellation?",
     answer: `Voluntary cancellation is when a taxpayer applies to cancel their
 registration. Suo-moto cancellation is when a tax officer cancels a registration
 due to non-compliance.`,
   },
-   {
+  {
     question: "How to revoke a canceled GST registration?",
     answer: `If your registration has been canceled by a tax officer, you can apply
 for revocation by filing Form REG-21 within 30 days of the cancellation order. You
 must provide reasons for the delay in compliance`,
   },
-    {
+  {
     question: "How to report a technical issue on the GST portal?",
     answer: `You can raise a grievance ticket on the 'Grievance Redressal Portal' or
 contact the GST helpdesk.`,
   },
-   {
+  {
     question: "What is a mismatch in GST returns?",
     answer: `A mismatch occurs when the details of sales (GSTR-1) uploaded by a
 supplier do not match the purchases (GSTR-2B) of the recipient. The portal
 highlights these mismatches.`,
   },
-    {
+  {
     question: "How to fix GSTR-1 already filed error?",
     answer: `This error occurs when the system detects a previously filed return.
 You need to verify the filing status on the dashboard or check for any duplicate
 filing attempts.`,
   },
-    {
+  {
     question: "How to file a GST complaint?",
     answer: `You can file a complaint or provide feedback on the GST portal's 'Help
 and Taxpayer Services' section.`,
   },
-    {
+  {
     question: "How to view my Electronic Cash Ledger?",
     answer: `Log in, navigate to 'Services' -> 'Ledgers' -> 'Electronic Cash Ledger'.
 This ledger shows all the cash deposited and utilized for tax payments.`,
   },
-   {
+  {
     question: "What is the Electronic Credit Ledger?",
     answer: `This ledger contains all the Input Tax Credit (ITC) available to the
 taxpayer. It is used to offset tax liabilities.`,
   },
-   {
+  {
     question: "How to pay GST online?",
     answer: `Go to 'Services' -> 'Payments' -> 'Create Challan'. Fill in the details of
 the tax to be paid and select a payment method (e.g., net banking, debit card,
 NEFT).`,
   },
-    {
+  {
     question: "How to download my GSTR-3B return?",
     answer: `You can download the GSTR-3B from the 'Returns Dashboard' on the
 GST portal.`,
   },
-    {
+  {
     question: "What is the GST Returns Dashboard?",
     answer: `The dashboard provides a consolidated view of all the returns to be
 filed for a given tax period.`,
   },
-   {
+  {
     question: "Can I file GST returns using an offline tool?",
     answer: `Yes, the GST portal provides an offline utility that allows you to prepare
 returns without an internet connection and upload them later.`,
   },
-    {
+  {
     question: "How to claim a GST refund on exports?",
     answer: `File a refund application online in Form RFD-01. You will need to
 submit supporting documents like the shipping bill and bank realization
 certificate.`,
   },
-   {
+  {
     question: "GST on a free-of-cost supply?",
     answer: `If no consideration is charged, GST is generally not applicable, but ITC
 on the inputs used must be reversed.`,
   },
   {
-    question: "How to manage ITC when I have both taxable and exempted supplies?",
+    question:
+      "How to manage ITC when I have both taxable and exempted supplies?",
     answer: `You can only claim ITC on inputs used for making taxable supplies. A
 proportionate amount of ITC must be reversed for inputs used in making
 exempted supplies.`,
   },
-    {
+  {
     question: "GST on vouchers and discount coupons?",
     answer: `A voucher is taxable at the time of issue if the product/service is
 known. If the product/service is not specified (e.g., a gift card), GST is applicable
 at the time of redemption.`,
   },
-   {
+  {
     question: "GST on services provided to a Special Economic Zone (SEZ)?",
     answer: `Supplies to an SEZ are zero-rated. You can either charge IGST and
 the SEZ unit can claim a refund, or you can supply under a Letter of Undertaking
 (LUT) without charging any tax.`,
   },
-    {
+  {
     question: "What are the key changes in GST regulations for FY 2024-25?",
     answer: `You need to monitor the GST Council meetings for the latest changes,
 which can include rate rationalization, new e-invoicing thresholds, and changes
 in return filing procedures.`,
   },
-    {
+  {
     question: "What is a Show Cause Notice (SCN) in GST?",
     answer: `An SCN is a notice issued by a tax officer to a taxpayer asking them to
 show cause why an action (e.g., penalty, tax demand) should not be taken
 against them.`,
   },
-     {
+  {
     question: "How does the GST Council make decisions?",
     answer: `The GST Council, chaired by the Union Finance Minister, takes
 decisions based on a majority vote. The Centre has a one-third weightage of the
 total votes cast, and all states have a two-thirds weightage.`,
   },
-    {
+  {
     question: "GST on a business merger or acquisition?",
     answer: `The transfer of a business as a "going concern" is exempt from GST.
 However, the acquirer must ensure that the GST registration and ITC of the
 acquired company are properly transferred to them.`,
   },
-   {
+  {
     question: "How to file an appeal against a GST order?",
     answer: `An appeal can be filed with the First Appellate Authority. It must be filed
 within three months of the date of the order and requires a pre-deposit of a
 certain percentage of the tax demanded.`,
   },
-   {
+  {
     question: "What is GST litigation?",
     answer: `GST litigation refers to legal disputes between a taxpayer and the tax
 authorities. These disputes can be about the interpretation of a law, the
 classification of a good, or a tax demand.`,
   },
-   {
+  {
     question: "How to correct a wrong GSTIN entered in an invoice?",
     answer: `If the invoice is already filed, you need to issue a debit or credit note to
 rectify the error in the next return.`,
   },
-   {
+  {
     question: "I have paid GST twice. How to claim a refund?",
     answer: `You can claim a refund for the excess tax paid by filing a refund
 application in Form RFD-01.`,
   },
-   {
+  {
     question: "What to do if my supplier has not filed their return?",
     answer: `If your supplier has not filed their GSTR-1, the ITC will not be autopopulated
 in your GSTR-2B. You can send a reminder to the supplier through the
 portal.`,
   },
-   {
+  {
     question: "What is the penalty for not filing GST returns on time?",
     answer: `The late fee is ₹50 per day (₹25 each for CGST and SGST) for
 GSTR-3B and GSTR-1.`,
   },
-    {
+  {
     question: "How to respond to a GST demand notice?",
     answer: `You should respond to the notice with a detailed explanation and
 provide all the supporting documents to justify your tax position.`,
   },
-   {
+  {
     question: "How to get a new GST registration if my old one was canceled?",
     answer: `You must first apply for the revocation of the canceled registration. If
 that is not possible, you may have to file a fresh registration application.`,
   },
 ];
+
+export const heroData = {
+  title: " GST Sorted. For Every business,",
+  subTitle: " Every rupee, Every deadline.",
+  description: `  From startups to conglomerates, we handle your GST filings,
+            reconciliations, notices, and compliance—so you never miss a
+            deadline or lose a night’s sleep. Powered by experts. Driven by
+            trust. Built for Bharat.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataAboutUs = {
+  title: " Rebuilding the Execution Layer of Law",
+  // subTitle: " Every rupee, Every deadline.",
+  description: `UNGST transforms compliance from paperwork into infrastructure —
+          mapping every Act, department, and filing into executable systems.
+          When regulation runs on code, governance becomes predictable, and
+          trust becomes scalable.`,
+  items: [
+    {
+      title: "The Invisible Layer of Civilization",
+      text: "Every nation runs on law — but law alone doesn’t work without execution. Workforce exists to rebuild this invisible operating layer of governance, turning ambiguity into predictable trust.",
+    },
+    {
+      title: "Regulation Is Not the Problem — Execution Is",
+      text: "India’s 100+ Acts and 5,000+ departments aren’t the bottleneck — inefficient execution is. Workforce abstracts compliance into systems that convert law into reliable, repeatable code.",
+    },
+    {
+      title: "From Consulting to Control Systems",
+      text: "For decades, compliance meant intermediaries. Workforce changes that by engineering legality itself — codifying Acts, rules, and filings into executable workflows that run like software.",
+    },
+    {
+      title: "The Regulatory Graph",
+      text: "We’re building a living map of India’s regulatory framework — every Act, license, and workflow interconnected, traceable, and automated. A digital reflection of governance itself.",
+    },
+  ],
+};
+
+export const aboutSectionData = {
+  title:"Human Expertise That Powers Your GST Technology",
+  description:` You have Tally, Zoho, or an ERP system. They're powerful machines
+            for GST compliance. But every month, you still face the same manual
+            nightmares: data reconciliation, invoice mismatches, and the fear of
+            a compliance audit. The truth is, technology is only half the
+            solution. Without a masterful operator who understands the machine's
+            every nuance, it’s just a costly tool waiting for a mistake.`,
+            subDesc:`we are the operators. Our team is comprised of
+            the architects of the GST system and the seasoned experts who run it
+            day in and day out. We provide the elite human layer of expertise
+            that makes your technology work flawlessly, transforming your GST
+            function from a compliance risk into a streamlined asset. Stop
+            spending hours on manual reconciliation and data-chasing. Start
+            leveraging your technology to its full potential with the ultimate
+            human oversight.`
+
+}
+
+export const aboutUsAboutSectionData = {
+  title:"Regulation, Executed.",
+  
+            subDesc:`We are the infrastructure that connects law to execution, policy
+          to practice, and governance to growth. We don’t just build software —
+          we build trust as infrastructure. The companies that run on Workforce
+          will outlast those that don’t. The nations that adopt systems like
+          this will move faster, farther, and fairer.`
+
+}

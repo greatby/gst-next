@@ -1,25 +1,8 @@
 "use client";
 import React from "react";
 
-const HeroWithBackground = () => {
-  const items = [
-    {
-      title: "We Are",
-      text: "Hands-on operators managing all aspects of GST processes.",
-    },
-    {
-      title: "We Are",
-      text: "Elite expertise to ensure your GST technology runs flawlessly.",
-    },
-    {
-      title: "We Are",
-      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
-    },
-    {
-      title: "We Are",
-      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
-    },
-  ];
+const HeroWithBackground = ({data}) => {
+ 
   return (
     // <section className="relative w-full my-14">
     //   {/* Background screenshot */}
@@ -104,15 +87,12 @@ const HeroWithBackground = () => {
                   pt-20 text-center px-4 sm:px-6 lg:px-8 relative z-10"
         >
           <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
-            GST Sorted. For Every business,
+           {data.title}
             <br />
-            Every rupee, Every deadline.
+            {data.subTitle}
           </h1>
           <p className="text-base sm:text-lg md:text-[1rem] max-w-2xl text-black mb-0 md:mb-[40px]">
-            From startups to conglomerates, we handle your GST filings,
-            reconciliations, notices, and compliance—so you never miss a
-            deadline or lose a night’s sleep. Powered by experts. Driven by
-            trust. Built for Bharat.
+            {data.description}
           </p>
         </div>
       </section>
@@ -120,11 +100,11 @@ const HeroWithBackground = () => {
       <section className="relative w-full bg-white">
         <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border border-black text-black bg-white">
-            {items.map((item, index) => (
+            {data.items.map((item, index) => (
               <div
                 key={index}
                 className={`relative py-10 md:py-12 px-6 md:px-12 flex flex-col items-start justify-center ${
-                  index < items.length - 1
+                  index < data.items.length - 1
                     ? "border-b md:border-b-0 lg:border-r border-black"
                     : ""
                 }`}
@@ -134,7 +114,7 @@ const HeroWithBackground = () => {
                 </div>
                 <p className="mt-4 text-gray-700 max-w-xs">{item.text}</p>
 
-                {index < items.length - 1 && (
+                {index < data.items.length - 1 && (
                   <div className="hidden lg:block absolute top-1/2 right-0 -translate-y-1/2 translate-x-1/2 bg-white p-2">
                     <svg
                       viewBox="0 0 45 26"

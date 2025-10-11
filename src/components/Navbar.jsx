@@ -94,6 +94,12 @@ export default function Navbar() {
               className="w-[100px] h-auto"
             />
           </Link>
+          <Link href="/aboutUs">
+          About Us
+          </Link>
+            <Link href="/jobs">
+          Careers
+          </Link>
 
           {/* Desktop Nav */}
           {/* <nav className="hidden md:flex items-center gap-10 text-sm font-medium text-gray-900 relative">
@@ -186,13 +192,13 @@ export default function Navbar() {
               );
               window.open(`https://wa.me/${phone}?text=${text}`, "_blank");
             }}
-            className="group hidden md:flex relative px-5 py-2 cursor-pointer items-center justify-center gap-2 rounded-lg bg-[#c7e410] sm:px-4 text-black shadow-lg transition"
+            className="group hidden md:flex relative px-7 py-2 cursor-pointer items-center justify-center gap-2 rounded-lg bg-[#c7e410] sm:px-4 text-black shadow-lg transition"
           >
             <IoLogoWhatsapp className="size-4 sm:size-5 transition-transform sm:group-hover:scale-0" />
             <span className="hidden sm:inline transition-opacity sm:group-hover:opacity-0">
               WhatsApp
             </span>
-            <span className="absolute hidden sm:inline opacity-0 transition-opacity sm:group-hover:opacity-100">
+            <span className="absolute hidden w-full sm:inline opacity-0 transition-opacity sm:group-hover:opacity-100">
               +91 99805 11980
             </span>
           </button>

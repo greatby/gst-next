@@ -13,4 +13,6 @@ body {
   font-family: 'FKGroteskSemiMono', sans-serif;
   background: #fffff8;
 }
-
+.fill-current {
+    fill: currentColor;
+}
