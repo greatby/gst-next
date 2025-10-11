@@ -1135,59 +1135,173 @@ export const heroData = {
   ],
 };
 
+// export const heroDataAboutUs = {
+//   title: " Rebuilding the Execution Layer of Law",
+//   // subTitle: " Every rupee, Every deadline.",
+//   description: `UNGST transforms compliance from paperwork into infrastructure —
+//           mapping every Act, department, and filing into executable systems.
+//           When regulation runs on code, governance becomes predictable, and
+//           trust becomes scalable.`,
+//   items: [
+//     {
+//       title: "The Invisible Layer of Civilization",
+//       text: "Every nation runs on law — but law alone doesn’t work without execution. Workforce exists to rebuild this invisible operating layer of governance, turning ambiguity into predictable trust.",
+//     },
+//     {
+//       title: "Regulation Is Not the Problem — Execution Is",
+//       text: "India’s 100+ Acts and 5,000+ departments aren’t the bottleneck — inefficient execution is. Workforce abstracts compliance into systems that convert law into reliable, repeatable code.",
+//     },
+//     {
+//       title: "From Consulting to Control Systems",
+//       text: "For decades, compliance meant intermediaries. Workforce changes that by engineering legality itself — codifying Acts, rules, and filings into executable workflows that run like software.",
+//     },
+//     {
+//       title: "The Regulatory Graph",
+//       text: "We’re building a living map of India’s regulatory framework — every Act, license, and workflow interconnected, traceable, and automated. A digital reflection of governance itself.",
+//     },
+//   ],
+// };
+
 export const heroDataAboutUs = {
-  title: " Rebuilding the Execution Layer of Law",
-  // subTitle: " Every rupee, Every deadline.",
-  description: `UNGST transforms compliance from paperwork into infrastructure —
-          mapping every Act, department, and filing into executable systems.
-          When regulation runs on code, governance becomes predictable, and
-          trust becomes scalable.`,
+  title: "UNIGST — The Fiscal Operating System of a New India",
+  // subTitle: "We don’t just file GST. We operate the nation’s fiscal confidence.",
+  description: `
+UNIGST exists to keep that rhythm unbroken. 
+We are not a product, not a SaaS, not a consultancy. 
+We are the execution layer of India’s fiscal sovereignty — the system that ensures compliance isn’t a burden, but a backbone.`,
   items: [
     {
-      title: "The Invisible Layer of Civilization",
-      text: "Every nation runs on law — but law alone doesn’t work without execution. Workforce exists to rebuild this invisible operating layer of governance, turning ambiguity into predictable trust.",
+      title: "From Law to Logic to Flow",
+      text: `Every invoice, every return, every filing in the GST framework represents not just tax, but the health of the republic itself. 
+Where others see forms, we see the pulse of the economy. 
+Where others see filings, we see flow. 
+`,
     },
     {
-      title: "Regulation Is Not the Problem — Execution Is",
-      text: "India’s 100+ Acts and 5,000+ departments aren’t the bottleneck — inefficient execution is. Workforce abstracts compliance into systems that convert law into reliable, repeatable code.",
+      title: "The GST Engine",
+      text: `Behind UniGST stands a team that has built, scaled, and run the systems of India’s tax infrastructure itself. 
+Our experts aren’t implementers — they’re operators of the nation’s fiscal code. 
+We understand that GST isn’t just about returns — it’s about reliability, reconciliation, and reform. 
+`,
     },
     {
-      title: "From Consulting to Control Systems",
-      text: "For decades, compliance meant intermediaries. Workforce changes that by engineering legality itself — codifying Acts, rules, and filings into executable workflows that run like software.",
+      title: "For Every Business That Keeps India Moving",
+      text: `From the corner trader in Surat to the logistics giant in Mumbai, 
+from exporters in Hyderabad to SaaS founders in Bengaluru — 
+we stand behind the doers, the builders, the taxpayers who keep the Indian economy in motion. 
+`,
     },
     {
-      title: "The Regulatory Graph",
-      text: "We’re building a living map of India’s regulatory framework — every Act, license, and workflow interconnected, traceable, and automated. A digital reflection of governance itself.",
+      title: "The Mission — Fiscal Order at National Scale",
+      text: `The Prime Minister’s 10-trillion-dollar vision rests on a single truth — that growth cannot exist without governance, and governance cannot exist without trust. 
+UniGST is that trust in motion — the fiscal spine that makes India’s growth lawful, reliable, and unstoppable. 
+`,
     },
   ],
 };
 
 export const aboutSectionData = {
-  title:"Human Expertise That Powers Your GST Technology",
-  description:` You have Tally, Zoho, or an ERP system. They're powerful machines
+  title: "Human Expertise That Powers Your GST Technology",
+  description: ` You have Tally, Zoho, or an ERP system. They're powerful machines
             for GST compliance. But every month, you still face the same manual
             nightmares: data reconciliation, invoice mismatches, and the fear of
             a compliance audit. The truth is, technology is only half the
             solution. Without a masterful operator who understands the machine's
             every nuance, it’s just a costly tool waiting for a mistake.`,
-            subDesc:`we are the operators. Our team is comprised of
+  subDesc: `we are the operators. Our team is comprised of
             the architects of the GST system and the seasoned experts who run it
             day in and day out. We provide the elite human layer of expertise
             that makes your technology work flawlessly, transforming your GST
             function from a compliance risk into a streamlined asset. Stop
             spending hours on manual reconciliation and data-chasing. Start
             leveraging your technology to its full potential with the ultimate
-            human oversight.`
+            human oversight.`,
+};
 
-}
+// export const aboutUsAboutSectionData = {
+//   title:"Regulation, Executed.",
 
+//             subDesc:`We are the infrastructure that connects law to execution, policy
+//           to practice, and governance to growth. We don’t just build software —
+//           we build trust as infrastructure. The companies that run on Workforce
+//           will outlast those that don’t. The nations that adopt systems like
+//           this will move faster, farther, and fairer.`
+
+// }
 export const aboutUsAboutSectionData = {
-  title:"Regulation, Executed.",
-  
-            subDesc:`We are the infrastructure that connects law to execution, policy
-          to practice, and governance to growth. We don’t just build software —
-          we build trust as infrastructure. The companies that run on Workforce
-          will outlast those that don’t. The nations that adopt systems like
-          this will move faster, farther, and fairer.`
+  title: "We Are the Infrastructure Behind India’s Fiscal Confidence",
+  subDesc: `We believe India’s fiscal system is not just taxation — it’s the grammar of a modern economy.  
+When that grammar is clear, the nation speaks in one financial language: transparent, lawful, and efficient.  
+We build for that clarity — so entrepreneurs can innovate without fear, investors can trust without hesitation, and regulators can govern without friction.`,
+};
 
-}
+export const processSteps = [
+  {
+    number: "1",
+    title: "Flawless Data Reconciliation & ITC Maximization",
+    description:
+      "Maximized ITC utilization, a healthier cash flow, and zero time wasted on manual reconciliation.",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "2",
+    title: "Flawless Return Filing & Audit-Proof Documentation",
+    description: `Guaranteed on-time GST filings with zero late fees or interest, plus full audit readiness backed by expert professionals.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "3",
+    title: "Unparalleled Expertise that Software Can't Replicate",
+    description:
+      "Unmatched GST expertise that keeps your business compliant and strategically ready for any GST challenge.",
+    image: "/images/process_3.png",
+  },
+  // {
+  //   number: "4",
+  //   title: "Process Data in Output Format",
+  //   description: "Aggregate, analyze, and prepare client ready output.",
+  //   image: "/images/process_4.png",
+  // },
+  // {
+  //   number: "5",
+  //   title: "Perform Validation and Quality Checks",
+  //   description: "Run quality checks and ensure data relevancy and accuracy.",
+  //   image: "/images/process_5.png",
+  // },
+  // {
+  //   number: "6",
+  //   title: "On-time Delivery To Clients",
+  //   description: "Upload data and reports to the client portal.",
+  //   image: "/images/process_6.png",
+  // },
+];
+
+export const processStepsAbout = [
+  {
+    number: "1",
+    title: "The Republic of Compliance",
+    description: `India’s strength lies in its unity — and UniGST is that unity in fiscal form.  
+36 states. 700+ districts. 1.4 billion people. One compliance layer.  
+We are the republic’s invisible ledger — linking policy to payment, return to reform, and law to logic.  
+This is not software. This is statecraft through computation.`,
+    image: "/images/process_1.png",
+  },
+  {
+    number: "2",
+    title: "The Future We’re Building",
+    description: `GST is not the end of reform — it’s the beginning of a continuous evolution.  
+As India advances toward 2047, UniGST will evolve into the Fiscal Control Layer of the digital republic — connecting indirect taxes, direct taxes, ESG, carbon credits, and every national ledger into one lawful ecosystem of execution.  
+.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "3",
+    title: "Closing Declaration",
+    description: `We are UniGST.  
+The fiscal engine of a self-reliant India.  
+The structure behind trust.  
+The invisible machinery of the 10-trillion-dollar republic.  
+“We don’t just file GST. We operate the nation’s fiscal confidence.”`,
+    image: "/images/process_3.png",
+  },
+];

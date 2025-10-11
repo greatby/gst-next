@@ -86,7 +86,7 @@ const HeroWithBackground = ({data}) => {
           className="w-full flex flex-col gap-y-5 items-center
                   pt-20 text-center px-4 sm:px-6 lg:px-8 relative z-10"
         >
-          <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
+          <h1 className="text-3xl max-w-5xl sm:text-4xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
            {data.title}
             <br />
             {data.subTitle}
@@ -103,7 +103,7 @@ const HeroWithBackground = ({data}) => {
             {data.items.map((item, index) => (
               <div
                 key={index}
-                className={`relative py-10 md:py-12 px-6 md:px-12 flex flex-col items-start justify-center ${
+                className={`relative py-10 md:py-12 px-6 md:px-12 flex flex-col items-start ${
                   index < data.items.length - 1
                     ? "border-b md:border-b-0 lg:border-r border-black"
                     : ""

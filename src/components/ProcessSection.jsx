@@ -2,48 +2,11 @@
 import React from "react";
 import Link from "next/link";
 
-const processSteps = [
-  {
-    number: "1",
-    title: "Flawless Data Reconciliation & ITC Maximization",
-    description: "Maximized ITC utilization, a healthier cash flow, and zero time wasted on manual reconciliation.",
-    image: "/images/process_1.png",
-  },
-  {
-    number: "2",
-    title: "Flawless Return Filing & Audit-Proof Documentation",
-    description: `Guaranteed on-time GST filings with zero late fees or interest, plus full audit readiness backed by expert professionals.`,
-    image: "/images/process_2.png",
-  },
-  {
-    number: "3",
-    title: "Unparalleled Expertise that Software Can't Replicate",
-    description: "Unmatched GST expertise that keeps your business compliant and strategically ready for any GST challenge.",
-    image: "/images/process_3.png",
-  },
-  // {
-  //   number: "4",
-  //   title: "Process Data in Output Format",
-  //   description: "Aggregate, analyze, and prepare client ready output.",
-  //   image: "/images/process_4.png",
-  // },
-  // {
-  //   number: "5",
-  //   title: "Perform Validation and Quality Checks",
-  //   description: "Run quality checks and ensure data relevancy and accuracy.",
-  //   image: "/images/process_5.png",
-  // },
-  // {
-  //   number: "6",
-  //   title: "On-time Delivery To Clients",
-  //   description: "Upload data and reports to the client portal.",
-  //   image: "/images/process_6.png",
-  // },
-];
 
-const ProcessSection = () => {
+
+const ProcessSection = ({data}) => {
   return (
-    <section className="relative flex flex-col items-center max-w-[90rem] mx-auto px-4 sm:-mt-12 mb-24">
+    <section className="relative flex flex-col items-center max-w-[90rem] mx-auto px-4 sm:-mt-12">
       {/* Heading */}
       <div className="flex flex-col gap-y-6 text-center items-center max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-white">
@@ -57,8 +20,8 @@ const ProcessSection = () => {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 border-t border-l border-r border-orange-500 mt-16 w-full">
-        {processSteps.map((step, idx) => (
+      <div className="grid grid-cols-1 sm:grid-cols-3 border-t border-l border-r border-orange-500 my-16 w-full">
+        {data.map((step, idx) => (
           <div
             key={idx}
             className="relative flex flex-col items-start gap-y-4 justify-end border-b sm:border-r border-orange-500 min-h-[26rem] py-10 sm:py-12 px-6 sm:px-10 text-white"

@@ -6,7 +6,7 @@ import CompanySection from "@/components/CompanySection";
 import React from "react";
 import Footer from "@/components/Footer";
 import TeamSection from "@/components/TeamSection";
-import { aboutSectionData, heroData } from "@/utils/data";
+import { aboutSectionData, heroData, processSteps } from "@/utils/data";
 
 const Page = () => {
   return (
@@ -14,7 +14,7 @@ const Page = () => {
       <CompanySection data={heroData} />
       <section className="bg-[#41001f] w-full">
         <AboutSection data={aboutSectionData}/>
-        <ProcessSection />
+        <ProcessSection data={processSteps}/>
         <CoreValues />
         {/* <TeamSection /> */}
       </section>
