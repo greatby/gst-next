@@ -158,13 +158,13 @@ const Footer = () => {
           <h4 className="uppercase text-purple text-sm">Get In Touch</h4>
           <ul className="mt-4 space-y-2 text-sm text-gray-300">
             <li>
-              Headquarters - USA <br />
+              Headquarters - India <br />
               <a
-                href="https://goo.gl/maps/example"
+                href=""
                 target="_blank"
                 rel="noreferrer"
               >
-                1300 SW 6th Ave, Portland OR 97201
+                62/63 Church Street, Karnataka, 560001
               </a>
             </li>
             <li>
