@@ -34,7 +34,7 @@ const Footer = () => {
               Get Started <FiArrowRight size={16} />
             </Link>
             <motion.a
-              href="tel:+919980511980"
+              href="tel:+919945933333"
               onHoverStart={() => setHovered(true)}
               onHoverEnd={() => setHovered(false)}
               className="relative md:flex items-center rounded-full overflow-hidden px-4 py-2 cursor-pointer"
@@ -57,7 +57,7 @@ const Footer = () => {
                   exit={{ opacity: 0, x: -20 }}
                   transition={{ duration: 0.3 }}
                 >
-                  {hovered ? "+919980511980" : "Give us a Call"}
+                  {hovered ? "+919945933333" : "Give us a Call"}
                 </motion.span>
                 <motion.span
                   className="flex items-center justify-center w-6 h-6 rounded-full text-white"
@@ -168,7 +168,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="tel:+919980511980">+91 99805 11980</a>
+              <a href="tel:+919980511980">+919945933333</a>
             </li>
             <li>
               <a href="mailto:hello@unigst.com">hello@unigst.com</a>
@@ -179,12 +179,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="max-w-[90rem] mx-auto px-6 py-8 border-t border-orange-500 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
-        <p>© 2023 | All Rights Reserved</p>
-        <div className="flex gap-4 mt-4 md:mt-0">
-          <Link href="/sample-page">Login</Link>
-          <Link href="/privacy-policy">Privacy Policy</Link>
-          <Link href="/disclaimer">Disclaimer</Link>
-        </div>
+        <p>© 2025 | All Rights Reserved</p>
       </div>
     </footer>
   );

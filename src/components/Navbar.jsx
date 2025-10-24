@@ -181,7 +181,7 @@ export default function Navbar() {
         <div className="flex items-center gap-6">
           <button
             onClick={() => {
-              const phone = "919980511980";
+              const phone = "919945933333";
               const text = encodeURIComponent(
                 "Hello UNIGST,\n\n" +
                   "I’d like to know more about your compliance services.\n\n" +
@@ -199,13 +199,13 @@ export default function Navbar() {
               WhatsApp
             </span>
             <span className="absolute hidden w-full sm:inline opacity-0 transition-opacity sm:group-hover:opacity-100">
-              +91 99805 11980
+              +919945933333
             </span>
           </button>
           {/* Call link with hover animation */}
 
           <motion.a
-            href="tel:+919980511980"
+            href="tel:+919945933333"
             onHoverStart={() => setHovered(true)}
             onHoverEnd={() => setHovered(false)}
             className="relative hidden md:flex items-center rounded-full overflow-hidden px-4 py-2 cursor-pointer"
@@ -224,7 +224,7 @@ export default function Navbar() {
                 exit={{ opacity: 0, x: -20 }}
                 transition={{ duration: 0.3 }}
               >
-                {hovered ? "+919980511980" : "Give us a Call"}
+                {hovered ? "+919945933333" : "Give us a Call"}
               </motion.span>
               <motion.span
                 className="flex items-center justify-center w-6 h-6 rounded-full text-white"
@@ -291,14 +291,14 @@ export default function Navbar() {
                 Email Us <FiArrowRight />
               </Link>
               <a
-                href="tel:+919980511980"
+                href="tel:+919945933333"
                 className="bg-lime-400 text-[#4a004a] px-6 py-2 rounded-xl font-medium flex items-center gap-2"
               >
                 Call Us <FiArrowRight />
               </a>
               <button
                 onClick={() => {
-                  const phone = "919980511980";
+                  const phone = "919945933333";
                   const text = encodeURIComponent(
                     "Hello UNIGST,\n\n" +
                       "I’d like to know more about your compliance services.\n\n" +

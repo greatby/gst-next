@@ -138,7 +138,7 @@ You’ll work on interfaces, brand communication, motion graphics, and storytell
       </div>
 
       {/* Awards Grid */}
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 border border-black text-black rounded-lg overflow-hidden">
+      {/* <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 border border-black text-black rounded-lg overflow-hidden">
         <div className="flex flex-col items-center justify-center p-8 border-b sm:border-b-0 sm:border-r border-black">
           <svg
             width="96"
@@ -196,7 +196,7 @@ You’ll work on interfaces, brand communication, motion graphics, and storytell
             className="h-10"
           />
         </a>
-      </div>
+      </div> */}
 
       {/* Job Listings */}
       <div className="max-w-6xl mx-auto mt-16 px-4">
