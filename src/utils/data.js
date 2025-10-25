@@ -1305,3 +1305,516 @@ The invisible machinery of the 10-trillion-dollar republic.
     image: "/images/process_3.png",
   },
 ];
+
+export const heroDataComplianceBangalore = {
+  title:
+    " GST Compliance Services in Bangalore | Complete Peace of Mind - UNIgst",
+  // subTitle: "Comprehensive GST Compliance Services in Bangalore",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const aboutSectionDataComplianceBangalore = {
+  title: "What is GST Compliance?",
+  description: `GST compliance goes beyond just filing returns. It encompasses proper invoice management, accurate record-keeping, timely tax payments, responding to notices, maintaining statutory registers, and staying updated with constantly evolving GST laws. Non-compliance can result in penalties, interest, prosecution, and reputational damage.`,
+};
+
+export const processStepsComplianceBangalore = [
+  {
+    number: "1",
+    title: "Avoid Penalties",
+    description:
+      "Non-compliance attracts hefty penalties ranging from ₹10,000 to ₹25,000 or higher depending on the violation. Late fees for returns add up quickly at ₹50 per day per return.",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "2",
+    title: "Maintain ITC Flow",
+    description: `Your customers can claim input tax credit only if you're compliant. Being non-compliant affects your business relationships and competitiveness.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "3",
+    title: "Secure Business Reputation",
+    description:
+      "Government tenders, large contracts, and financing institutions check GST compliance. A clean record opens doors",
+    image: "/images/process_3.png",
+  },
+  {
+    number: "4",
+    title: "Prevent Business Disruption",
+    description:
+      "Non-compliance can lead to GST registration suspension or cancellation, effectively halting your business operations.",
+    image: "/images/process_4.png",
+  },
+  {
+    number: "5",
+    title: "Reduce Audit Risk",
+    description:
+      "Proper compliance reduces likelihood of detailed audits and scrutiny from tax authorities.",
+    image: "/images/process_5.png",
+  },
+  {
+    number: "6",
+    title: "Enable Growth",
+    description:
+      "Focus on business growth while we handle compliance, ensuring you're always audit-ready and penalty-free.",
+    image: "/images/process_6.png",
+  },
+];
+
+export const heroDataConsultantsBangalore = {
+  title:
+    "GST Consultants in Bangalore | Expert Tax Advisory - UNIgst",
+  // subTitle: "Comprehensive GST Compliance Services in Bangalore",
+  description: `Navigating GST compliance in Bangalore's dynamic business environment requires expert guidance. UNIgst provides comprehensive GST consulting services tailored to businesses of all sizes - from startups to established enterprises.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const aboutSectionDataConsultantsBangalore = {
+  title: "Why Choose UNIgst as Your GST Consultant?",
+  description: `UNIgst offers expert GST consulting in Bangalore with a deep understanding of Karnataka’s tax landscape. From input tax credit optimization and multi-state GST structuring to audit representation and monthly compliance checks — our specialists deliver end-to-end GST solutions tailored for IT, manufacturing, retail, and service businesses. Stay compliant, reduce tax risks, and unlock operational efficiency with UNIgst.`,
+};
+
+
+export const processStepsConsultantsBangalore = [
+  {
+    number: "1",
+    title: "Business Analysis",
+    description:
+      "We begin by understanding your business model, transaction patterns, and current GST practices to identify gaps and opportunities.",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "2",
+    title: "Customized Strategy",
+    description: `Based on our analysis, we develop a tailored GST compliance and optimization strategy aligned with your business goals.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "3",
+    title: "Implementation Support",
+    description:
+      "Our team assists in implementing recommended changes, from system updates to process modifications.",
+    image: "/images/process_3.png",
+  },
+  {
+    number: "4",
+    title: "Ongoing Advisory",
+    description:
+      "We provide continuous support through monthly reviews, timely updates on regulatory changes, and prompt resolution of queries.",
+    image: "/images/process_4.png",
+  },
+  // {
+  //   number: "5",
+  //   title: "Reduce Audit Risk",
+  //   description:
+  //     "Proper compliance reduces likelihood of detailed audits and scrutiny from tax authorities.",
+  //   image: "/images/process_5.png",
+  // },
+  // {
+  //   number: "6",
+  //   title: "Enable Growth",
+  //   description:
+  //     "Focus on business growth while we handle compliance, ensuring you're always audit-ready and penalty-free.",
+  //   image: "/images/process_6.png",
+  // },
+];
+
+export const faqsCompliance = [
+    {
+      question: "What's included in complete GST compliance?",
+      answer:
+        "Complete compliance includes registration maintenance, timely return filing, accurate record-keeping, tax payments, ITC management, invoice compliance, e-way bills, notice responses, and staying updated with law changes.",
+    },
+    {
+      question: "How much does GST compliance cost?",
+      answer:
+        "Costs depend on your business size, transaction volume, and complexity. We offer packages starting from affordable monthly retainers. Contact us for a customized quote.",
+    },
+    {
+      question: "Can you help fix past compliance mistakes?",
+      answer:
+        "Yes, we specialize in compliance rectification including filing arrear returns, responding to notices, and clearing pending issues.",
+    },
+    {
+      question: "Do I need to visit your office regularly?",
+      answer:
+        "No. Our process is designed to be remote-friendly. Most businesses never visit our office after initial setup, managing everything digitally.",
+    },
+    {
+      question: "How do you ensure my business stays compliant?",
+      answer:
+        " We use a combination of automated reminders, dedicated relationship managers, regular reviews, and proactive monitoring of regulatory changes.",
+    },
+    {
+      question: "What happens if you miss a deadline?",
+      answer:
+        " While we have systems to prevent this, in the rare event of our error, we bear the late fee and penalty costs.",
+    },
+    {
+      question: " Can you handle compliance for multiple companies?",
+      answer:
+        " Yes, we manage GST compliance for business groups with multiple entities and provide consolidated reporting.",
+    },
+    {
+      question: "Do you provide software or do I need to buy it separately?",
+      answer:
+        "We provide access to necessary GST software as part of our service. No additional software purchase required.",
+    },
+    {
+      question: "How quickly can you onboard my business?",
+      answer:
+        "Standard onboarding takes 2-3 days. Urgent onboarding can be completed within 24 hours if needed.",
+    },
+    {
+      question: "What if I need help outside of compliance services?",
+      answer:
+        "We provide comprehensive GST services including advisory, registration, refunds, and representation — all available under one roof.",
+    },
+    {
+      question: "Do you handle audits and legal proceedings?",
+      answer:
+        "Yes, we provide complete audit support and manage all GST-related proceedings including appeals.",
+    },
+    {
+      question: "Can you work with my existing accountant or CA?",
+      answer:
+        "Absolutely. We can coordinate with your existing team and provide specialized GST expertise while they handle other areas.",
+    },
+  ];
+
+  export const faqsConsultants = [
+  {
+    question: "How much do GST consulting services cost in Bangalore?",
+    answer:
+      "Our fees depend on your business size and requirements. We offer flexible packages starting from affordable monthly retainers. Contact us for a customized quote.",
+  },
+  {
+    question: "Do I need a GST consultant if I'm a small business?",
+    answer:
+      "Even small businesses benefit from expert guidance to avoid penalties, optimize tax liability, and ensure accurate compliance from the start.",
+  },
+  {
+    question: "Can you help with GST registration as well?",
+    answer:
+      "Yes! We provide end-to-end GST services including registration, return filing, advisory, and audit support.",
+  },
+  {
+    question: "How quickly can you resolve a GST notice?",
+    answer:
+      "Timeline depends on the notice type. We typically respond within 2-3 days and work expeditiously toward resolution.",
+  },
+  {
+    question: "Do you provide support for GST audits?",
+    answer:
+      "Absolutely. Our team provides comprehensive audit support including documentation preparation, representation, and resolution assistance.",
+  },
+];
+
+
+export const heroDataRegistrationBangalore = {
+  title:
+    "GST Registration Services in Bangalore | Fast & Hassle-Free - UNIgst",
+  // subTitle: "Comprehensive GST Compliance Services in Bangalore",
+  description: `Starting a new business in Bangalore? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.
+
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const aboutSectionDataRegistrationBangalore = {
+  title: "What is GST Registration?",
+  description: `GST registration is the process of obtaining a unique 15-digit Goods and Services Tax Identification Number (GSTIN) from the tax authorities. It's mandatory for businesses exceeding the threshold turnover or engaged in specific business activities.`,
+};
+
+export const processStepsRegistrationBangalore = [
+  {
+    number: "1",
+    title: "Documentation (Day 1)",
+    description:
+      "The first and most crucial step in the GST registration process is gathering all the required documents. Accurate and complete documentation ensures a smooth registration process without unnecessary delays. We assist you in collecting all essential papers depending on your business type and structure",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "2",
+    title: "Application Preparation (Day 1-2)",
+    description: `Our experts prepare your GST application with precision, ensuring correct business activity classification (HSN/SAC codes), accurate entity type selection, and verified business address and bank details. We also confirm the authorized signatory documentation to make the application complete and error-free for smooth submission.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "3",
+    title: "Application Submission (Day 2)",
+    description:
+      "We submit your GST registration application on the official portal, ensuring all documents are uploaded correctly and information is accurate. Our professional drafting guarantees complete compliance with GST rules, minimizing the risk of rejection and delays.",
+    image: "/images/process_3.png",
+  },
+  {
+    number: "4",
+    title: " Verification & Approval (Day 3-5)",
+    description:
+      "We monitor your GST application status in real-time and handle any queries or clarifications from GST authorities. If physical verification is required, we coordinate it efficiently to ensure smooth and timely approval of your registration.",
+    image: "/images/process_4.png",
+  },
+  {
+    number: "5",
+    title: "GSTIN Delivery (Day 5)",
+    description:
+      "Once your GST registration is approved, you receive your GST certificate and 15-digit GSTIN. We also provide guidance on compliance requirements and support to help you get started with GST return filing smoothly.",
+    image: "/images/process_5.png",
+  },
+  // {
+  //   number: "6",
+  //   title: "Enable Growth",
+  //   description:
+  //     "Focus on business growth while we handle compliance, ensuring you're always audit-ready and penalty-free.",
+  //   image: "/images/process_6.png",
+  // },
+];
+
+export const faqsRegistration = [
+  {
+    question: "How long does GST registration take in Bangalore?",
+    answer:
+      "With UNIgst, standard GST registration is completed in 3-5 working days once all documents are submitted.",
+  },
+  {
+    question: "What is the cost of GST registration?",
+    answer:
+      "The government doesn't charge any fee for GST registration. Our service fee depends on your business structure and complexity. Contact us for a quote.",
+  },
+  {
+    question: "Can I register for GST on my own?",
+    answer:
+      "Yes, but professional help ensures accuracy, saves time, and avoids common mistakes that lead to rejection or delays.",
+  },
+  {
+    question: "Is GST registration mandatory for online sellers?",
+    answer:
+      "Yes, all e-commerce sellers must register for GST regardless of turnover.",
+  },
+  {
+    question: "What happens if I don't register when required?",
+    answer:
+      "Operating without mandatory GST registration attracts penalties up to ₹10,000 and tax recovery on transactions.",
+  },
+  {
+    question: "Can I cancel my GST registration later?",
+    answer:
+      "Yes, you can apply for GST cancellation if your business is closed or turnover falls below threshold.",
+  },
+  {
+    question: "Do I need different registration for multiple business locations?",
+    answer:
+      "You need separate registration for each state but can have multiple locations within the same state under one GSTIN.",
+  },
+  {
+    question: "How do I check if my GST registration is approved?",
+    answer:
+      "You can track your application status on the GST portal or we'll keep you updated throughout the process.",
+  },
+  {
+    question: "What is the validity of GST registration?",
+    answer:
+      "GST registration doesn't have an expiry date. It remains valid until cancelled.",
+  },
+  {
+    question: "Can a freelancer register for GST?",
+    answer:
+      "Yes, freelancers can register as proprietors if they meet the turnover threshold or wish to register voluntarily.",
+  },
+];
+
+
+export const heroDataReturnFilingBangalore = {
+  title:
+    "GST Return Filing Services in Bangalore | Timely & Accurate - UNIgst",
+  // subTitle: "Comprehensive GST Compliance Services in Bangalore",
+  description: `Never miss a GST return deadline again. UNIgst provides reliable, accurate, and timely GST return filing services for businesses across Bangalore. From startups to established enterprises, we ensure your GST compliance is always on track.
+
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const aboutSectionDataReturnFilingBangalore = {
+  title: "Why Timely GST Return Filing Matters",
+  description: `Filing GST returns on time is crucial for maintaining compliance, business reputation, and uninterrupted input tax credit. Late or incorrect filing can result in daily late fees, interest on unpaid taxes, blocked ITC claims, registration suspension, notices from authorities, and challenges in securing loans or tenders.`,
+};
+
+export const processStepsReturnBangalore = [
+  {
+    number: "1",
+    title: "Data Collection",
+    description:
+      "We start by collecting and verifying all necessary records, including sales and purchase invoices, payment and banking details, credit/debit notes, and e-way bills or transport documents to ensure accurate GST filing.",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "2",
+    title: "Data Processing & Reconciliation",
+    description: `We process and reconcile your GST data by uploading invoices, matching with GSTR-2B, reconciling sales with GSTR-1, resolving discrepancies, and calculating the eligible input tax credit to ensure accurate filings.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "3",
+    title: "Return Preparation",
+    description:
+      "We prepare your GST returns by compiling GSTR-1 details, calculating GSTR-3B tax liability, optimizing input tax credit claims, determining cash payment requirements, and generating challans if necessary for accurate filing.",
+    image: "/images/process_3.png",
+  },
+  {
+    number: "4",
+    title: " Review & Approval",
+    description:
+      "We share draft GST returns for your review, clarify any questions, obtain your approval, and ensure all figures are accurate before final submission.",
+    image: "/images/process_4.png",
+  },
+  {
+    number: "5",
+    title: "Filing & Payment",
+    description:
+      "We file your GST returns and process payments on the GST portal, including GSTR-1 and GSTR-3B, provide acknowledgment, and update your records with the filed returns for complete compliance.",
+    image: "/images/process_5.png",
+  },
+  {
+    number: "6",
+    title: "Post-Filing Support",
+    description:
+      "We provide post-filing support by maintaining filed return records, tracking input tax credit status, monitoring GST department communications, and preparing you for the next return period to ensure ongoing compliance.",
+    image: "/images/process_6.png",
+  },
+];
+
+
+export const faqsReturnfiling = [
+  {
+    question: "What documents do I need to provide for GST return filing?",
+    answer:
+      "You need to provide sales invoices, purchase invoices, expense bills, bank statements, and payment vouchers for the return period.",
+  },
+  {
+    question: "Can you handle GST returns for multiple branches?",
+    answer:
+      "Yes, we manage GST compliance for businesses with multiple locations across Karnataka and other states.",
+  },
+  {
+    question: "What if I've missed filing returns for several months?",
+    answer:
+      "We can help file all arrear returns. Late fees and interest will apply, but we'll minimize penalties and get you compliant.",
+  },
+  {
+    question: "How much time before the due date should I share my data?",
+    answer:
+      "Ideally, share your data at least 5-7 days before the due date to allow time for reconciliation and queries.",
+  },
+  {
+    question: "Do you provide software for invoice uploading?",
+    answer:
+      "Yes, we can provide access to GST software or integrate with your existing accounting system.",
+  },
+  {
+    question: "What happens if there's an error after filing?",
+    answer:
+      "Minor errors can be corrected in subsequent returns. We help identify and rectify errors systematically.",
+  },
+  {
+    question: "Can I switch from my current CA to UNIgst mid-year?",
+    answer:
+      "Absolutely! We ensure smooth transition with proper handover and continuity of compliance.",
+  },
+  {
+    question: "Do you file returns only or provide complete GST services?",
+    answer:
+      "We provide end-to-end GST services including registration, return filing, advisory, audit support, and notice management.",
+  },
+  {
+    question: "How do I track my return filing status?",
+    answer:
+      "You'll receive regular updates via email and can access our client portal for real-time status tracking.",
+  },
+  {
+    question: "What if I need to talk to someone urgently?",
+    answer:
+      "Our team is available during business hours. Premium plan clients get priority support with dedicated manager access.",
+  },
+  {
+    question: "Is my business data secure with you?",
+    answer:
+      "Yes, we follow strict data security protocols with encrypted storage and confidentiality agreements.",
+  },
+  {
+    question: "Can you handle GST for both my proprietorship and private limited company?",
+    answer:
+      "Yes, we manage multiple entities for clients with consolidated reporting and coordination.",
+  },
+];

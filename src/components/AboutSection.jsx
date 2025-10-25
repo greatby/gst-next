@@ -28,9 +28,10 @@ const AboutSection = ({data}) => {
           <p>
        {data.description}
           </p>
-          <p>
+          {data?.subDesc && <p>
             At <span className="text-[#c7e410]">UNIGST.COM</span>, {data.subDesc}
-          </p>
+          </p>}
+          
         </div>
 
         {/* Button */}

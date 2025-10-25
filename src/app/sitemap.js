@@ -25,5 +25,29 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.7,
     },
+     {
+      url: `${base}/gst-compliance-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+      {
+      url: `${base}/gst-consultants-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+      {
+      url: `${base}/gst-registration-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+      {
+      url: `${base}/gst-return-filing-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
 }
