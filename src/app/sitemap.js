@@ -23,31 +23,31 @@ export default function sitemap() {
       url: `${base}/faq`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.9,
     },
      {
       url: `${base}/gst-compliance-bangalore`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.9,
     },
       {
       url: `${base}/gst-consultants-bangalore`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.9,
     },
       {
       url: `${base}/gst-registration-bangalore`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.9,
     },
       {
       url: `${base}/gst-return-filing-bangalore`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.7,
+      priority: 0.9,
     },
   ];
 }

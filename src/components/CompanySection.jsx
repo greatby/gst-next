@@ -86,6 +86,9 @@ const HeroWithBackground = ({data}) => {
           className="w-full flex flex-col gap-y-5 items-center
                   pt-20 text-center px-4 sm:px-6 lg:px-8 relative z-10"
         >
+          <div>
+            <img src="images/UNIGST.png" alt="UNIGST" className="w-28 h-auto"/>
+          </div>
           <h1 className="text-3xl max-w-5xl sm:text-4xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
            {data.title}
             <br />

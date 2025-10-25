@@ -67,7 +67,7 @@ const GstComplianceBangalore = () => {
                 addressRegion: "Karnataka",
                 addressCountry: "IN",
               },
-              telephone: "+91-XXXXXXXXXX",
+              telephone: "+91-9945933333",
             },
             areaServed: { "@type": "City", name: "Bangalore" },
             hasOfferCatalog: {

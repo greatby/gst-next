@@ -69,14 +69,14 @@ const GstComplianceBangalore = () => {
             image: "https://www.unigst.com/images/unigst-logo.jpg",
             "@id": "https://www.unigst.com/gst-consultants-bangalore",
             url: "https://www.unigst.com/gst-consultants-bangalore",
-            telephone: "+91-XXXXXXXXXX",
+            telephone: "+91-9945933333",
             priceRange: "₹₹",
             address: {
               "@type": "PostalAddress",
-              streetAddress: "Your Street Address",
+              streetAddress: "Church street",
               addressLocality: "Bangalore",
               addressRegion: "Karnataka",
-              postalCode: "560XXX",
+              postalCode: "560001",
               addressCountry: "IN",
             },
             geo: {

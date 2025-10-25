@@ -15,7 +15,7 @@ const ProcessSectionRegistration = ({data}) => {
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 border-t border-l border-r border-orange-500 my-16 w-full">
+      <div className={`grid grid-cols-1 sm:grid-cols-${data.length} md:grid-cols-5 border-t border-l border-r border-orange-500 my-16 w-full`}>
         {data.map((step, idx) => (
           <div
             key={idx}

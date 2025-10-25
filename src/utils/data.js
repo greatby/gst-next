@@ -1308,7 +1308,7 @@ The invisible machinery of the 10-trillion-dollar republic.
 
 export const heroDataComplianceBangalore = {
   title:
-    " GST Compliance Services in Bangalore | Complete Peace of Mind - UNIgst",
+    " GST Compliance Services in Bangalore. Complete Peace of Mind",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements.
 `,
@@ -1383,7 +1383,7 @@ export const processStepsComplianceBangalore = [
 
 export const heroDataConsultantsBangalore = {
   title:
-    "GST Consultants in Bangalore | Expert Tax Advisory - UNIgst",
+    "GST Consultants in Bangalore. Expert Tax Advisory.",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Navigating GST compliance in Bangalore's dynamic business environment requires expert guidance. UNIgst provides comprehensive GST consulting services tailored to businesses of all sizes - from startups to established enterprises.
 `,
@@ -1551,7 +1551,7 @@ export const faqsCompliance = [
 
 export const heroDataRegistrationBangalore = {
   title:
-    "GST Registration Services in Bangalore | Fast & Hassle-Free - UNIgst",
+    "GST Registration Services in Bangalore. Fast & Hassle Free.",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Starting a new business in Bangalore? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.
 
@@ -1681,7 +1681,7 @@ export const faqsRegistration = [
 
 export const heroDataReturnFilingBangalore = {
   title:
-    "GST Return Filing Services in Bangalore | Timely & Accurate - UNIgst",
+    "GST Return Filing Services in Bangalore. Timely & Accurate",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Never miss a GST return deadline again. UNIgst provides reliable, accurate, and timely GST return filing services for businesses across Bangalore. From startups to established enterprises, we ensure your GST compliance is always on track.
 
