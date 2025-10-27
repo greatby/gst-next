@@ -23,7 +23,7 @@ export default function sitemap() {
       url: `${base}/faq`,
       lastModified: new Date(),
       changeFrequency: "monthly",
-      priority: 0.9,
+      priority: 0.7,
     },
      {
       url: `${base}/gst-compliance-bangalore`,
