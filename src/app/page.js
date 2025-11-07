@@ -7,6 +7,10 @@ import React from "react";
 import Footer from "@/components/Footer";
 import TeamSection from "@/components/TeamSection";
 import { aboutSectionData, heroData, processSteps } from "@/utils/data";
+import HeroSection from "@/components/Hero";
+import IntroSection from "@/components/IntroSection";
+import ServicesSection from "@/components/ServicesSection";
+import SecurityProtocols from "@/components/SecurityProtocol";
 
 export const metadata = {
   title: "UNIGST — GST Sorted. For Every business",
@@ -22,13 +26,18 @@ export const metadata = {
 const Page = () => {
   return (
     <>
-      <CompanySection data={heroData} />
+      <HeroSection data={heroData}/>
+      <IntroSection data={aboutSectionData}/>
+      <ServicesSection />
+      <TeamSection />  
+      {/* <SecurityProtocols />   */}
+      {/* <CompanySection data={heroData} />
       <section className="bg-[#41001f] w-full">
         <AboutSection data={aboutSectionData}/>
         <ProcessSection data={processSteps}/>
         <CoreValues />
-        {/* <TeamSection /> */}
-      </section>
+        <TeamSection />
+      </section> */}
     </>
   );
 };

@@ -9,10 +9,26 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'NormFont';
+  src: url('/fonts/NormFont.woff2') format('woff2');
+  font-weight: 400; /* adjust if needed */
+  font-style: normal;
+  font-display: swap;
+}
+:root{
+  --font-norm:"NormFont"
+}
 body {
   font-family: 'FKGroteskSemiMono', sans-serif;
   background: #fffff8;
 }
 .fill-current {
     fill: currentColor;
+}
+
+
+.font-norm{
+  @apply font-sans;
+   font-family: var(--font-norm);
 }
