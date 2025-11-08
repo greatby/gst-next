@@ -1818,3 +1818,926 @@ export const faqsReturnfiling = [
       "Yes, we manage multiple entities for clients with consolidated reporting and coordination.",
   },
 ];
+
+
+export const heroDataComplianceMumbai = {
+  title:
+    " GST Compliance Services in Mumbai. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Bangalore",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataComplianceDelhi = {
+  title: "GST Compliance Services in Delhi. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Delhi",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Delhi.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataComplianceChennai = {
+  title: "GST Compliance Services in Chennai. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Chennai",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Chennai.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataComplianceHyderabad = {
+  title: "GST Compliance Services in Hyderabad. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Hyderabad",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Hyderabad.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataCompliancePune = {
+  title: "GST Compliance Services in Pune. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Pune",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Pune.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataComplianceKolkata = {
+  title: "GST Compliance Services in Kolkata. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Kolkata",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Kolkata.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceAhmedabad = {
+  title: "GST Compliance Services in Ahmedabad. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Ahmedabad",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Ahmedabad.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceSurat = {
+  title: "GST Compliance Services in Surat. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Surat",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Surat.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};export const heroDataComplianceGurgaon = {
+  title: "GST Compliance Services in Gurgaon. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Gurgaon",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Gurgaon.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataComplianceNoida = {
+  title: "GST Compliance Services in Noida. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Noida",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Noida.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceJaipur = {
+  title: "GST Compliance Services in Jaipur. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Jaipur",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Jaipur.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceLucknow = {
+  title: "GST Compliance Services in Lucknow. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Lucknow",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Lucknow.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceIndore = {
+  title: "GST Compliance Services in Indore. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Indore",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Indore.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceCoimbatore = {
+  title: "GST Compliance Services in Coimbatore. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Coimbatore",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Coimbatore.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceVadodara = {
+  title: "GST Compliance Services in Vadodara. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Vadodara",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Vadodara.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceVisakhapatnam = {
+  title: "GST Compliance Services in Visakhapatnam. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Visakhapatnam",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Visakhapatnam.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceNagpur = {
+  title: "GST Compliance Services in Nagpur. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Nagpur",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Nagpur.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceBhopal = {
+  title: "GST Compliance Services in Bhopal. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Bhopal",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Bhopal.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataComplianceKanpur = {
+  title: "GST Compliance Services in Kanpur. Complete Peace of Mind",
+  // subTitle: "Comprehensive GST Compliance Services in Kanpur",
+  description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Kanpur.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataConsultantsMumbai = {
+  title: "GST Consultants in Mumbai. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Mumbai",
+  description: `Navigating GST compliance in Mumbai's dynamic business environment requires expert guidance. UNIgst provides comprehensive GST consulting services tailored to businesses of all sizes - from startups to established enterprises.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsDelhi = {
+  title: "GST Consultants in Delhi. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Delhi",
+  description: `Navigating GST compliance in Delhi's dynamic business environment requires expert guidance. UNIgst provides comprehensive GST consulting services tailored to businesses of all sizes - from startups to established enterprises.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsChennai = {
+  title: "GST Consultants in Chennai. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Chennai",
+  description: `Navigating GST compliance in Chennai's dynamic business environment requires expert guidance. UNIgst provides comprehensive GST consulting services tailored to businesses of all sizes - from startups to established enterprises.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsHyderabad = {
+  title: "GST Consultants in Hyderabad. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Hyderabad",
+  description: `Navigating GST compliance in Hyderabad's fast-growing business ecosystem requires expert guidance. UNIgst provides comprehensive GST consulting services tailored to businesses of all sizes — from startups to large enterprises.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsPune = {
+  title: "GST Consultants in Pune. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Pune",
+  description: `Navigating GST compliance in Pune's growing business ecosystem requires expert guidance. UNIgst provides comprehensive GST consulting services tailored to businesses of all sizes — from startups to large enterprises.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsKolkata = {
+  title: "GST Consultants in Kolkata. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Kolkata",
+  description: `Navigate GST compliance confidently in Kolkata’s dynamic business landscape. UNIgst provides end-to-end GST consulting and advisory services designed to keep your business compliant, optimized, and audit-ready.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsAhmedabad = {
+  title: "GST Consultants in Ahmedabad. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Ahmedabad",
+  description: `Navigate GST compliance with confidence in Ahmedabad's fast-growing commercial ecosystem. UNIgst delivers end-to-end GST consulting, filing support, and strategic advisory to help businesses stay compliant, optimized, and audit-ready.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsSurat = {
+  title: "GST Consultants in Surat. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Surat",
+  description: `Navigate GST compliance with confidence in Surat’s vibrant business ecosystem. UNIgst offers expert GST advisory, filings, reconciliations and compliance support for manufacturers, traders and service providers.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsGurgaon = {
+  title: "GST Consultants in Gurgaon. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Gurgaon",
+  description: `Stay GST-compliant in Gurgaon's fast-paced corporate and startup ecosystem. UNIgst delivers end-to-end GST consulting, filings, reconciliations, and advisory tailored for enterprises, IT/ITES, SaaS, startups, and MSMEs.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsNoida = {
+  title: "GST Consultants in Noida. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Noida",
+  description: `Empower your business in Noida’s fast-growing commercial hub with UNIgst’s expert GST consulting. We provide end-to-end compliance, filings, reconciliations, notices and advisory support for MSMEs, startups and enterprises.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsJaipur = {
+  title: "GST Consultants in Jaipur. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Jaipur",
+  description: `Empower your business in Jaipur’s growing commercial landscape with UNIgst’s expert GST consulting. We provide end-to-end compliance, filings, reconciliations, notices and advisory support for MSMEs, startups and enterprises in Jaipur.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsLucknow = {
+  title: "GST Consultants in Lucknow. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Lucknow",
+  description: `Simplify GST compliance for your business in Lucknow with UNIgst’s expert advisory and managed services. From filings and reconciliations to notices and strategic guidance, we support startups, MSMEs and enterprises across Lucknow.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataConsultantsIndore = {
+  title: "GST Consultants in Indore. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Indore",
+  description: `Streamline GST compliance for your business in Indore with UNIgst’s expert advisory and managed services. From return filing to notice support and strategic tax planning, we serve startups, MSMEs, and enterprises across Indore.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsCoimbatore = {
+  title: "GST Consultants in Coimbatore. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Coimbatore",
+  description: `Optimize GST compliance for your business in Coimbatore with UNIgst’s expert advisory and managed solutions. From filings & reconciliations to notices and audits, we support startups, MSMEs, and enterprises across Coimbatore.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsVadodara = {
+  title: "GST Consultants in Vadodara. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Vadodara",
+  description: `Ensure seamless GST compliance for your business in Vadodara with UNIgst’s expert advisory and managed solutions. From filings & reconciliations to notices and audits, we support startups, MSMEs, and enterprises across Vadodara.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsVisakhapatnam = {
+  title: "GST Consultants in Visakhapatnam. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Visakhapatnam",
+  description: `Get end-to-end GST compliance, filing, reconciliation, and advisory support for your business in Visakhapatnam. UNIgst enables startups, MSMEs and enterprises to stay compliant, audit-ready and protected from GST risks.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsNagpur = {
+  title: "GST Consultants in Nagpur. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Nagpur",
+  description: `Reliable GST compliance, return filing, reconciliation, and advisory services for businesses in Nagpur. UNIgst empowers startups, MSMEs and enterprises to stay compliant, audit-ready, and protected from GST risks.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataConsultantsBhopal = {
+  title: "GST Consultants in Bhopal. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Bhopal",
+  description: `Expert GST compliance, return filing, reconciliation, and advisory services for businesses in Bhopal. UNIgst helps startups, MSMEs and enterprises stay compliant, audit-ready, and protected from GST risks.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataConsultantsKanpur = {
+  title: "GST Consultants in Kanpur. Expert Tax Advisory.",
+  // subTitle: "Comprehensive GST Compliance Services in Kanpur",
+  description: `Professional GST consulting, return filing, reconciliation, audit support and compliance services in Kanpur. UNIgst helps businesses stay compliant, avoid penalties, and simplify GST operations with expert guidance.
+`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
