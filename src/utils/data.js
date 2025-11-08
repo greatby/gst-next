@@ -1307,8 +1307,7 @@ The invisible machinery of the 10-trillion-dollar republic.
 ];
 
 export const heroDataComplianceBangalore = {
-  title:
-    " GST Compliance Services in Bangalore. Complete Peace of Mind",
+  title: " GST Compliance Services in Bangalore. Complete Peace of Mind",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements.
 `,
@@ -1382,8 +1381,7 @@ export const processStepsComplianceBangalore = [
 ];
 
 export const heroDataConsultantsBangalore = {
-  title:
-    "GST Consultants in Bangalore. Expert Tax Advisory.",
+  title: "GST Consultants in Bangalore. Expert Tax Advisory.",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Navigating GST compliance in Bangalore's dynamic business environment requires expert guidance. UNIgst provides comprehensive GST consulting services tailored to businesses of all sizes - from startups to established enterprises.
 `,
@@ -1411,7 +1409,6 @@ export const aboutSectionDataConsultantsBangalore = {
   title: "Why Choose UNIgst as Your GST Consultant?",
   description: `UNIgst offers expert GST consulting in Bangalore with a deep understanding of Karnataka’s tax landscape. From input tax credit optimization and multi-state GST structuring to audit representation and monthly compliance checks — our specialists deliver end-to-end GST solutions tailored for IT, manufacturing, retail, and service businesses. Stay compliant, reduce tax risks, and unlock operational efficiency with UNIgst.`,
 };
-
 
 export const processStepsConsultantsBangalore = [
   {
@@ -1458,69 +1455,69 @@ export const processStepsConsultantsBangalore = [
 ];
 
 export const faqsCompliance = [
-    {
-      question: "What's included in complete GST compliance?",
-      answer:
-        "Complete compliance includes registration maintenance, timely return filing, accurate record-keeping, tax payments, ITC management, invoice compliance, e-way bills, notice responses, and staying updated with law changes.",
-    },
-    {
-      question: "How much does GST compliance cost?",
-      answer:
-        "Costs depend on your business size, transaction volume, and complexity. We offer packages starting from affordable monthly retainers. Contact us for a customized quote.",
-    },
-    {
-      question: "Can you help fix past compliance mistakes?",
-      answer:
-        "Yes, we specialize in compliance rectification including filing arrear returns, responding to notices, and clearing pending issues.",
-    },
-    {
-      question: "Do I need to visit your office regularly?",
-      answer:
-        "No. Our process is designed to be remote-friendly. Most businesses never visit our office after initial setup, managing everything digitally.",
-    },
-    {
-      question: "How do you ensure my business stays compliant?",
-      answer:
-        " We use a combination of automated reminders, dedicated relationship managers, regular reviews, and proactive monitoring of regulatory changes.",
-    },
-    {
-      question: "What happens if you miss a deadline?",
-      answer:
-        " While we have systems to prevent this, in the rare event of our error, we bear the late fee and penalty costs.",
-    },
-    {
-      question: " Can you handle compliance for multiple companies?",
-      answer:
-        " Yes, we manage GST compliance for business groups with multiple entities and provide consolidated reporting.",
-    },
-    {
-      question: "Do you provide software or do I need to buy it separately?",
-      answer:
-        "We provide access to necessary GST software as part of our service. No additional software purchase required.",
-    },
-    {
-      question: "How quickly can you onboard my business?",
-      answer:
-        "Standard onboarding takes 2-3 days. Urgent onboarding can be completed within 24 hours if needed.",
-    },
-    {
-      question: "What if I need help outside of compliance services?",
-      answer:
-        "We provide comprehensive GST services including advisory, registration, refunds, and representation — all available under one roof.",
-    },
-    {
-      question: "Do you handle audits and legal proceedings?",
-      answer:
-        "Yes, we provide complete audit support and manage all GST-related proceedings including appeals.",
-    },
-    {
-      question: "Can you work with my existing accountant or CA?",
-      answer:
-        "Absolutely. We can coordinate with your existing team and provide specialized GST expertise while they handle other areas.",
-    },
-  ];
+  {
+    question: "What's included in complete GST compliance?",
+    answer:
+      "Complete compliance includes registration maintenance, timely return filing, accurate record-keeping, tax payments, ITC management, invoice compliance, e-way bills, notice responses, and staying updated with law changes.",
+  },
+  {
+    question: "How much does GST compliance cost?",
+    answer:
+      "Costs depend on your business size, transaction volume, and complexity. We offer packages starting from affordable monthly retainers. Contact us for a customized quote.",
+  },
+  {
+    question: "Can you help fix past compliance mistakes?",
+    answer:
+      "Yes, we specialize in compliance rectification including filing arrear returns, responding to notices, and clearing pending issues.",
+  },
+  {
+    question: "Do I need to visit your office regularly?",
+    answer:
+      "No. Our process is designed to be remote-friendly. Most businesses never visit our office after initial setup, managing everything digitally.",
+  },
+  {
+    question: "How do you ensure my business stays compliant?",
+    answer:
+      " We use a combination of automated reminders, dedicated relationship managers, regular reviews, and proactive monitoring of regulatory changes.",
+  },
+  {
+    question: "What happens if you miss a deadline?",
+    answer:
+      " While we have systems to prevent this, in the rare event of our error, we bear the late fee and penalty costs.",
+  },
+  {
+    question: " Can you handle compliance for multiple companies?",
+    answer:
+      " Yes, we manage GST compliance for business groups with multiple entities and provide consolidated reporting.",
+  },
+  {
+    question: "Do you provide software or do I need to buy it separately?",
+    answer:
+      "We provide access to necessary GST software as part of our service. No additional software purchase required.",
+  },
+  {
+    question: "How quickly can you onboard my business?",
+    answer:
+      "Standard onboarding takes 2-3 days. Urgent onboarding can be completed within 24 hours if needed.",
+  },
+  {
+    question: "What if I need help outside of compliance services?",
+    answer:
+      "We provide comprehensive GST services including advisory, registration, refunds, and representation — all available under one roof.",
+  },
+  {
+    question: "Do you handle audits and legal proceedings?",
+    answer:
+      "Yes, we provide complete audit support and manage all GST-related proceedings including appeals.",
+  },
+  {
+    question: "Can you work with my existing accountant or CA?",
+    answer:
+      "Absolutely. We can coordinate with your existing team and provide specialized GST expertise while they handle other areas.",
+  },
+];
 
-  export const faqsConsultants = [
+export const faqsConsultants = [
   {
     question: "How much do GST consulting services cost in Bangalore?",
     answer:
@@ -1548,10 +1545,8 @@ export const faqsCompliance = [
   },
 ];
 
-
 export const heroDataRegistrationBangalore = {
-  title:
-    "GST Registration Services in Bangalore. Fast & Hassle Free.",
+  title: "GST Registration Services in Bangalore. Fast & Hassle Free.",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Starting a new business in Bangalore? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.
 
@@ -1657,7 +1652,8 @@ export const faqsRegistration = [
       "Yes, you can apply for GST cancellation if your business is closed or turnover falls below threshold.",
   },
   {
-    question: "Do I need different registration for multiple business locations?",
+    question:
+      "Do I need different registration for multiple business locations?",
     answer:
       "You need separate registration for each state but can have multiple locations within the same state under one GSTIN.",
   },
@@ -1678,10 +1674,8 @@ export const faqsRegistration = [
   },
 ];
 
-
 export const heroDataReturnFilingBangalore = {
-  title:
-    "GST Return Filing Services in Bangalore. Timely & Accurate",
+  title: "GST Return Filing Services in Bangalore. Timely & Accurate",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Never miss a GST return deadline again. UNIgst provides reliable, accurate, and timely GST return filing services for businesses across Bangalore. From startups to established enterprises, we ensure your GST compliance is always on track.
 
@@ -1755,7 +1749,6 @@ export const processStepsReturnBangalore = [
   },
 ];
 
-
 export const faqsReturnfiling = [
   {
     question: "What documents do I need to provide for GST return filing?",
@@ -1813,16 +1806,15 @@ export const faqsReturnfiling = [
       "Yes, we follow strict data security protocols with encrypted storage and confidentiality agreements.",
   },
   {
-    question: "Can you handle GST for both my proprietorship and private limited company?",
+    question:
+      "Can you handle GST for both my proprietorship and private limited company?",
     answer:
       "Yes, we manage multiple entities for clients with consolidated reporting and coordination.",
   },
 ];
 
-
 export const heroDataComplianceMumbai = {
-  title:
-    " GST Compliance Services in Mumbai. Complete Peace of Mind",
+  title: " GST Compliance Services in Mumbai. Complete Peace of Mind",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
   description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements.
 `,
@@ -2017,7 +2009,8 @@ export const heroDataComplianceSurat = {
       text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
     },
   ],
-};export const heroDataComplianceGurgaon = {
+};
+export const heroDataComplianceGurgaon = {
   title: "GST Compliance Services in Gurgaon. Complete Peace of Mind",
   // subTitle: "Comprehensive GST Compliance Services in Gurgaon",
   description: `Stay ahead of GST regulations with UNIgst's complete compliance management solutions. We provide end-to-end GST compliance services ensuring your business remains penalty-free, audit-ready, and fully compliant with all Goods and Services Tax requirements in Gurgaon.
@@ -2739,5 +2732,220 @@ export const heroDataConsultantsKanpur = {
       title: "We Are",
       text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
     },
+  ],
+};
+export const heroDataRegistrationMumbai = {
+  title: "GST Registration Services in Mumbai. Fast & Hassle Free.",
+  description: `Starting a new business in Mumbai? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRegistrationDelhi = {
+  title: "GST Registration Services in Delhi. Fast & Hassle Free.",
+  description: `Starting a new business in Delhi? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRegistrationChennai = {
+  title: "GST Registration Services in Chennai. Fast & Hassle Free.",
+  description: `Starting a new business in Chennai? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationHyderabad = {
+  title: "GST Registration Services in Hyderabad. Fast & Hassle Free.",
+  description: `Starting a new business in Hyderabad? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationPune = {
+  title: "GST Registration Services in Pune. Fast & Hassle Free.",
+  description: `Starting a new business in Pune? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationKolkata = {
+  title: "GST Registration Services in Kolkata. Fast & Hassle Free.",
+  description: `Starting a new business in Kolkata? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationAhmedabad = {
+  title: "GST Registration Services in Ahmedabad. Fast & Hassle Free.",
+  description: `Starting a new business in Ahmedabad? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationSurat = {
+  title: "GST Registration Services in Surat. Fast & Hassle Free.",
+  description: `Starting a new business in Surat? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationGurgaon = {
+  title: "GST Registration Services in Gurgaon. Fast & Hassle Free.",
+  description: `Starting a new business in Gurgaon? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationNoida = {
+  title: "GST Registration Services in Noida. Fast & Hassle Free.",
+  description: `Starting a new business in Noida? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationJaipur = {
+  title: "GST Registration Services in Jaipur. Fast & Hassle Free.",
+  description: `Starting a new business in Jaipur? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationLucknow = {
+  title: "GST Registration Services in Lucknow. Fast & Hassle Free.",
+  description: `Starting a new business in Lucknow? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+
+export const heroDataRegistrationIndore = {
+  title: "GST Registration Services in Indore. Fast & Hassle Free.",
+  description: `Starting a new business in Indore? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationCoimbatore = {
+  title: "GST Registration Services in Coimbatore. Fast & Hassle Free.",
+  description: `Starting a new business in Coimbatore? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationVadodara = {
+  title: "GST Registration Services in Vadodara. Fast & Hassle Free.",
+  description: `Starting a new business in Vadodara? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationVisakhapatnam = {
+  title: "GST Registration Services in Visakhapatnam. Fast & Hassle Free.",
+  description: `Starting a new business in Visakhapatnam? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationNagpur = {
+  title: "GST Registration Services in Nagpur. Fast & Hassle Free.",
+  description: `Starting a new business in Nagpur? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationBhopal = {
+  title: "GST Registration Services in Bhopal. Fast & Hassle Free.",
+  description: `Starting a new business in Bhopal? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataRegistrationKanpur = {
+  title: "GST Registration Services in Kanpur. Fast & Hassle Free.",
+  description: `Starting a new business in Kanpur? Expanding your operations? UNIgst makes GST registration simple, fast, and hassle-free. Get your GSTIN in just 3-5 working days with our expert assistance.`,
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
   ],
 };
