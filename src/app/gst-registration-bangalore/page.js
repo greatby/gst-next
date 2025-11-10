@@ -6,7 +6,22 @@ import CompanySection from "@/components/CompanySection";
 import React from "react";
 import Footer from "@/components/Footer";
 import TeamSection from "@/components/TeamSection";
-import { aboutSectionData, aboutSectionDataComplianceBangalore, aboutSectionDataConsultantsBangalore, aboutSectionDataRegistrationBangalore, faqsConsultants, faqsRegistration, heroData, heroDataComplianceBangalore, heroDataConsultantsBangalore, heroDataRegistrationBangalore, processSteps, processStepsComplianceBangalore, processStepsConsultantsBangalore, processStepsRegistrationBangalore } from "@/utils/data";
+import {
+  aboutSectionData,
+  aboutSectionDataComplianceBangalore,
+  aboutSectionDataConsultantsBangalore,
+  aboutSectionDataRegistrationBangalore,
+  faqsConsultants,
+  faqsRegistration,
+  heroData,
+  heroDataComplianceBangalore,
+  heroDataConsultantsBangalore,
+  heroDataRegistrationBangalore,
+  processSteps,
+  processStepsComplianceBangalore,
+  processStepsConsultantsBangalore,
+  processStepsRegistrationBangalore,
+} from "@/utils/data";
 import ProcessSectionCompliance from "@/components/bangalore/ProcessSectionCompliance";
 import CoreValuesCompliance from "@/components/bangalore/CoreValuesCompliance";
 import FaqSection from "@/components/bangalore/FaqSection";
@@ -16,7 +31,8 @@ import CoreValuesConsultants from "@/components/bangalore/CoreValuesConsultants"
 import Head from "next/head";
 import ProcessSectionRegistration from "@/components/bangalore/ProcessSectionRegistration";
 import CoreValuesRegistartion from "@/components/bangalore/CoreValuesRegistration";
-
+import SecurityProtocolRegistration from "@/components/SecurityProtocolRegistration";
+import RegistrationIssuesSolution from "@/components/RegistrationIssuesSolution";
 
 export const metadata = {
   title: "GST Registration Services in Bangalore | Fast 3-5 Days - UNIgst",
@@ -30,7 +46,7 @@ export const metadata = {
 };
 
 const GstRegistrationBangalore = () => {
-    const serviceSchema = {
+  const serviceSchema = {
     "@context": "https://schema.org",
     "@type": "Service",
     serviceType: "GST Registration",
@@ -84,8 +100,7 @@ const GstRegistrationBangalore = () => {
       "@type": "Offer",
       availability: "https://schema.org/InStock",
       priceCurrency: "INR",
-      description:
-        "Professional GST registration services in Bangalore",
+      description: "Professional GST registration services in Bangalore",
     },
   };
 
@@ -140,7 +155,7 @@ const GstRegistrationBangalore = () => {
   };
   return (
     <>
-    <Head>
+      <Head>
         {/* 🔹 Primary Meta Tags */}
         <title>
           GST Registration Services in Bangalore | Fast 3-5 Days - UNIgst
@@ -216,11 +231,13 @@ const GstRegistrationBangalore = () => {
       </Head>
       <CompanySection data={heroDataRegistrationBangalore} />
       <section className="bg-[#41001f] w-full">
-        <AboutSection data={aboutSectionDataRegistrationBangalore}/>
-        <ProcessSectionRegistration data={processStepsRegistrationBangalore}/>
+        <AboutSection data={aboutSectionDataRegistrationBangalore} />
+        <ProcessSectionRegistration data={processStepsRegistrationBangalore} />
         <CoreValuesRegistartion />
-        <FaqSection faqs={faqsRegistration}/>
+        <SecurityProtocolRegistration />
       </section>
+      <RegistrationIssuesSolution />
+      <FaqSection faqs={faqsRegistration} />
     </>
   );
 };

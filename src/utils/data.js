@@ -1572,107 +1572,86 @@ export const heroDataRegistrationBangalore = {
 };
 
 export const aboutSectionDataRegistrationBangalore = {
-  title: "What is GST Registration?",
-  description: `GST registration is the process of obtaining a unique 15-digit Goods and Services Tax Identification Number (GSTIN) from the tax authorities. It's mandatory for businesses exceeding the threshold turnover or engaged in specific business activities.`,
+  title: "Why businesses trust us?",
+  description: `We deliver fast, accurate, and hassle-free GST registration backed by a 100% approval track record across 2,000+ successful applications. Every document is pre-verified to eliminate rejections due to common errors like incorrect address formats, missing bank details, or invalid proof uploads. With processing times of 3–5 business days for standard applications and 24–48 hours for urgent requests, we are among the fastest service providers, especially for businesses that cannot afford delays.
+
+Our support goes beyond filing—we simplify GST for you with clear guidance on tax slabs, eligible input claims, mandatory filings, and long-term compliance best practices. Once registered, we continue to assist with first return filing, professional invoice setup, accounting software integration, and compliance onboarding, ensuring you operate smoothly from day one.
+
+We manage every step with precision, transparency, and accountability—offering a complete, worry-free GST registration experience at a flat ₹2,999 with no hidden fees, no surprise charges, and no conditions. From documentation to approval, we handle it end-to-end so you can focus on your business while we take care of your compliance. Trusted, fast, accurate—done right the first time.`,
 };
 
 export const processStepsRegistrationBangalore = [
   {
     number: "1",
-    title: "Documentation (Day 1)",
+    title: "New Business Registration",
     description:
-      "The first and most crucial step in the GST registration process is gathering all the required documents. Accurate and complete documentation ensures a smooth registration process without unnecessary delays. We assist you in collecting all essential papers depending on your business type and structure",
+      "Starting a business? Get GST registration before your first sale. PAN-based application. GSTIN in 3-5 days.",
     image: "/images/process_1.png",
   },
   {
     number: "2",
-    title: "Application Preparation (Day 1-2)",
-    description: `Our experts prepare your GST application with precision, ensuring correct business activity classification (HSN/SAC codes), accurate entity type selection, and verified business address and bank details. We also confirm the authorized signatory documentation to make the application complete and error-free for smooth submission.`,
+    title: "Mandatory Threshold Registration",
+    description: `Crossed ₹40 lakhs turnover (₹20 lakhs for services)? Registration is now mandatory. We handle urgent applications.`,
     image: "/images/process_2.png",
   },
   {
     number: "3",
-    title: "Application Submission (Day 2)",
+    title: "Voluntary Registration",
     description:
-      "We submit your GST registration application on the official portal, ensuring all documents are uploaded correctly and information is accurate. Our professional drafting guarantees complete compliance with GST rules, minimizing the risk of rejection and delays.",
+      "Below threshold but want GST benefits? Input tax credit, interstate supply, B2B credibility. We help you register voluntarily.",
     image: "/images/process_3.png",
   },
   {
     number: "4",
-    title: " Verification & Approval (Day 3-5)",
+    title: " E-commerce Seller Registration",
     description:
-      "We monitor your GST application status in real-time and handle any queries or clarifications from GST authorities. If physical verification is required, we coordinate it efficiently to ensure smooth and timely approval of your registration.",
+      "Selling on Amazon, Flipkart, or own website? GST mandatory regardless of turnover. Specialized e-commerce registration.",
     image: "/images/process_4.png",
   },
   {
     number: "5",
-    title: "GSTIN Delivery (Day 5)",
+    title: "Additional Place of Business",
     description:
-      "Once your GST registration is approved, you receive your GST certificate and 15-digit GSTIN. We also provide guidance on compliance requirements and support to help you get started with GST return filing smoothly.",
+      "Opening new branch, warehouse, or office in Karnataka? Add location to existing GSTIN or get separate registration.",
     image: "/images/process_5.png",
   },
-  // {
-  //   number: "6",
-  //   title: "Enable Growth",
-  //   description:
-  //     "Focus on business growth while we handle compliance, ensuring you're always audit-ready and penalty-free.",
-  //   image: "/images/process_6.png",
-  // },
+  {
+    number: "6",
+    title: "Composition Scheme Registration",
+    description:
+      "Small business (turnover <₹1.5 Cr)? Register under composition scheme. Lower tax, simpler compliance, less paperwork.",
+    image: "/images/process_6.png",
+  },
 ];
 
 export const faqsRegistration = [
   {
-    question: "How long does GST registration take in Bangalore?",
+    question: "Can I register today and get GSTIN tomorrow?",
     answer:
-      "With UNIgst, standard GST registration is completed in 3-5 working days once all documents are submitted.",
+      "Not possible. Minimum 3 days required (government process). We offer 24-48 hour urgent service for ₹7,999.",
   },
   {
-    question: "What is the cost of GST registration?",
+    question: "Do I need to visit your office?",
     answer:
-      "The government doesn't charge any fee for GST registration. Our service fee depends on your business structure and complexity. Contact us for a quote.",
+      "No. Complete process online. We collect documents via WhatsApp/email. Payment online. No office visit required.",
   },
   {
-    question: "Can I register for GST on my own?",
+    question: "What if my application gets rejected?",
     answer:
-      "Yes, but professional help ensures accuracy, saves time, and avoids common mistakes that lead to rejection or delays.",
+      "It won’t happen. We verify everything before filing. Our rejection rate: 0% in last 18 months. But if it does (first time ever), we refile for free.",
   },
   {
-    question: "Is GST registration mandatory for online sellers?",
+    question: "Can I pay after getting GSTIN?",
     answer:
-      "Yes, all e-commerce sellers must register for GST regardless of turnover.",
+      "50% advance is required to start work. Balance 50% is payable after GSTIN is issued. This ensures a fair process for both sides.",
   },
   {
-    question: "What happens if I don't register when required?",
+    question: "Do you provide refund if I'm not satisfied?",
     answer:
-      "Operating without mandatory GST registration attracts penalties up to ₹10,000 and tax recovery on transactions.",
-  },
-  {
-    question: "Can I cancel my GST registration later?",
-    answer:
-      "Yes, you can apply for GST cancellation if your business is closed or turnover falls below threshold.",
-  },
-  {
-    question:
-      "Do I need different registration for multiple business locations?",
-    answer:
-      "You need separate registration for each state but can have multiple locations within the same state under one GSTIN.",
-  },
-  {
-    question: "How do I check if my GST registration is approved?",
-    answer:
-      "You can track your application status on the GST portal or we'll keep you updated throughout the process.",
-  },
-  {
-    question: "What is the validity of GST registration?",
-    answer:
-      "GST registration doesn't have an expiry date. It remains valid until cancelled.",
-  },
-  {
-    question: "Can a freelancer register for GST?",
-    answer:
-      "Yes, freelancers can register as proprietors if they meet the turnover threshold or wish to register voluntarily.",
+      "Yes. If we fail to deliver GSTIN due to our error, we issue a full refund. If you change your mind after work begins, refund minus ₹500 processing fee.",
   },
 ];
+
 
 export const heroDataReturnFilingBangalore = {
   title: "GST Return Filing in Bangalore. Monthly GST returns filed on time.",
@@ -1812,12 +1791,12 @@ export const faqsReturnfiling = [
       "Pending returns must be filed in chronological order with late fee and 18% interest if applicable. Professional services help prepare backdated filings, minimize penalties, fix mismatches, and restore compliance. Backlog clearance costs ₹15,000-50,000.",
   },
   {
-    question: "Can GST return filing services handle notices from the GST department?",
+    question:
+      "Can GST return filing services handle notices from the GST department?",
     answer:
       "Yes. Services include reply drafting, documentation, personal hearing support, and liaison for notices like ITC mismatch or assessment orders. Most notices can be avoided with monthly reconciliation. Notice handling costs ₹10,000-25,000 if separate from retainer plans.",
   },
 ];
-
 
 export const heroDataComplianceMumbai = {
   title: " GST Compliance Services in Mumbai. Complete Peace of Mind",
@@ -3521,7 +3500,8 @@ export const heroDataReturnFilingVadodara = {
   ],
 };
 export const heroDataReturnFilingVisakhapatnam = {
-  title: "GST Return Filing in Visakhapatnam. Monthly GST returns filed on time.",
+  title:
+    "GST Return Filing in Visakhapatnam. Monthly GST returns filed on time.",
   description: `Never miss a GST return deadline again. UNIgst offers accurate, timely, and fully compliant GST return filing services for businesses across Visakhapatnam. From startups to large companies, we ensure smooth compliance with zero late filings and maximum accuracy.
 
 `,
