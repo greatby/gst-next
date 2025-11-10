@@ -3,11 +3,11 @@ import CompanySection from "@/components/CompanySection";
 import FaqSection from "@/components/bangalore/FaqSection";
 import ProcessSectionRegistration from "@/components/bangalore/ProcessSectionRegistration";
 import CoreValuesRegistartion from "@/components/bangalore/CoreValuesRegistration";
-import { 
-  aboutSectionDataRegistrationBangalore, 
-  faqsRegistration, 
+import {
+  aboutSectionDataRegistrationBangalore,
+  faqsRegistration,
   processStepsRegistrationBangalore,
-  heroDataRegistrationKolkata
+  heroDataRegistrationKolkata,
 } from "@/utils/data";
 import Script from "next/script";
 import SecurityProtocolRegistration from "@/components/SecurityProtocolRegistration";
@@ -85,16 +85,38 @@ const GstRegistrationKolkata = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.unigst.com" },
-      { "@type": "ListItem", position: 2, name: "GST Registration Kolkata", item: "https://www.unigst.com/gst-registration-kolkata" },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.unigst.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "GST Registration Kolkata",
+        item: "https://www.unigst.com/gst-registration-kolkata",
+      },
     ],
   };
 
   return (
     <>
-      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
-      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script
+       id="service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <Script
+       id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+       id="bread-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <CompanySection data={heroDataRegistrationKolkata} />
       <section className="bg-[#41001f] w-full">
@@ -102,9 +124,9 @@ const GstRegistrationKolkata = () => {
         <ProcessSectionRegistration data={processStepsRegistrationBangalore} />
         <CoreValuesRegistartion />
         <SecurityProtocolRegistration />
-             </section>
-             <RegistrationIssuesSolution />
-             <FaqSection faqs={faqsRegistration} />
+      </section>
+      <RegistrationIssuesSolution />
+      <FaqSection faqs={faqsRegistration} />
     </>
   );
 };

@@ -85,16 +85,38 @@ const GstRegistrationGurgaon = () => {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.unigst.com" },
-      { "@type": "ListItem", position: 2, name: "GST Registration Gurgaon", item: "https://www.unigst.com/gst-registration-gurgaon" },
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.unigst.com",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "GST Registration Gurgaon",
+        item: "https://www.unigst.com/gst-registration-gurgaon",
+      },
     ],
   };
 
   return (
     <>
-      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
-      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
-      <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <Script
+       id="service-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <Script
+        id="bread-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
 
       <CompanySection data={heroDataRegistrationGurgaon} />
       <section className="bg-[#41001f] w-full">
@@ -102,9 +124,9 @@ const GstRegistrationGurgaon = () => {
         <ProcessSectionRegistration data={processStepsRegistrationBangalore} />
         <CoreValuesRegistartion />
         <SecurityProtocolRegistration />
-             </section>
-             <RegistrationIssuesSolution />
-             <FaqSection faqs={faqsRegistration} />
+      </section>
+      <RegistrationIssuesSolution />
+      <FaqSection faqs={faqsRegistration} />
     </>
   );
 };
