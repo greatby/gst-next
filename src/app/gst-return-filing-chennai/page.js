@@ -1,110 +1,83 @@
 import AboutSection from "@/components/AboutSection";
-import CoreValues from "@/components/CoreValues";
-import Navbar from "@/components/Navbar";
-import ProcessSection from "@/components/ProcessSection";
-import CompanySection from "@/components/CompanySection";
-import React from "react";
-import Footer from "@/components/Footer";
-import TeamSection from "@/components/TeamSection";
-import {
-  aboutSectionData,
-  aboutSectionDataComplianceBangalore,
-  aboutSectionDataConsultantsBangalore,
-  aboutSectionDataRegistrationBangalore,
-  aboutSectionDataReturnFilingBangalore,
-  faqsConsultants,
-  faqsRegistration,
-  faqsReturnfiling,
-  heroData,
-  heroDataComplianceBangalore,
-  heroDataConsultantsBangalore,
-  heroDataRegistrationBangalore,
-  heroDataReturnFilingBangalore,
-  processSteps,
-  processStepsComplianceBangalore,
-  processStepsConsultantsBangalore,
-  processStepsRegistrationBangalore,
-  processStepsReturnBangalore,
-} from "@/utils/data";
-import ProcessSectionCompliance from "@/components/bangalore/ProcessSectionCompliance";
-import CoreValuesCompliance from "@/components/bangalore/CoreValuesCompliance";
-import FaqSection from "@/components/bangalore/FaqSection";
-import Script from "next/script";
-import ProcessSectionConsultants from "@/components/bangalore/ProcessSectionConsultants";
-import CoreValuesConsultants from "@/components/bangalore/CoreValuesConsultants";
-import Head from "next/head";
-import ProcessSectionRegistration from "@/components/bangalore/ProcessSectionRegistration";
-import CoreValuesRegistartion from "@/components/bangalore/CoreValuesRegistration";
 import CoreValuesReturn from "@/components/bangalore/CoreValuesReturn";
 import ProcessSectionReturn from "@/components/bangalore/processSectionReturn";
+import CompanySection from "@/components/CompanySection";
+import FaqSection from "@/components/bangalore/FaqSection";
+import React from "react";
 import SecurityProtocols from "@/components/SecurityProtocol";
+import Head from "next/head";
+import {
+  aboutSectionDataReturnFilingBangalore,
+  faqsReturnfiling,
+  heroDataReturnFilingChennai,
+  processStepsReturnBangalore,
+} from "@/utils/data";
 import FilingIssuesSolution from "@/components/bangalore/FilingIssuesSolution";
 
 export const metadata = {
-  title: "GST Return Filing Services in Bangalore | Timely & Accurate - UNIgst",
+  title: "GST Return Filing Services in Chennai | Timely & Accurate - UNIgst",
   description:
-    "Never miss a GST return deadline again. UNIgst provides reliable, accurate, and timely GST return filing services for businesses across Bangalore. From startups to established enterprises, we ensure your GST compliance is always on track.",
-
+    "Never miss a GST return deadline again. UNIgst provides reliable, accurate, and timely GST return filing services for businesses across Chennai. From startups to large enterprises, we ensure complete GST compliance with zero stress.",
   alternates: {
-    canonical: "https://www.unigst.com/gst-return-filing-bangalore",
+    canonical: "https://www.unigst.com/gst-return-filing-chennai",
   },
 };
 
-const GstReturnFilingBangalore = () => {
+const GstReturnFilingChennai = () => {
   return (
     <>
       <Head>
         {/* Primary Meta Tags */}
         <title>
-          GST Return Filing Services in Bangalore | Timely & Accurate - UNIgst
+          GST Return Filing Services in Chennai | Timely & Accurate - UNIgst
         </title>
         <meta
           name="description"
-          content="Professional GST return filing in Bangalore. Monthly GSTR-1, GSTR-3B, annual returns. Never miss a deadline. Expert reconciliation & ITC optimization. Get started!"
+          content="Professional GST return filing in Chennai. GSTR-1, GSTR-3B, annual GST returns, ITC reconciliation, error-free filing and deadline protection. Get started today!"
         />
         <meta
           name="keywords"
-          content="GST return filing Bangalore, GSTR-1 filing, GSTR-3B filing, monthly GST returns, annual GST returns Bangalore, GST filing services"
+          content="GST return filing Chennai, GSTR-1 filing Chennai, GSTR-3B filing Chennai, monthly GST returns Chennai, annual GST returns Chennai, ITC reconciliation Chennai"
         />
         <link
           rel="canonical"
-          href="https://www.unigst.com/gst-return-filing-bangalore"
+          href="https://www.unigst.com/gst-return-filing-chennai"
         />
 
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="GST Return Filing Services in Bangalore | Never Miss a Deadline"
+          content="GST Return Filing Services in Chennai | 100% Timely & Accurate"
         />
         <meta
           property="og:description"
-          content="Professional GST return filing services in Bangalore. Timely, accurate filing with maximum ITC claims. Monthly and annual returns handled expertly."
+          content="Trusted GST return filing services in Chennai. Accurate reconciliation, maximum ITC claims, and zero missed deadlines for your business."
         />
         <meta
           property="og:url"
-          content="https://www.unigst.com/gst-return-filing-bangalore"
+          content="https://www.unigst.com/gst-return-filing-chennai"
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.unigst.com/images/gst-return-filing-bangalore-og.jpg"
+          content="https://www.unigst.com/images/gst-return-filing-chennai-og.jpg"
         />
         <meta property="og:locale" content="en_IN" />
         <meta property="og:site_name" content="UNIgst" />
 
-        {/* Twitter Card Tags */}
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="GST Return Filing in Bangalore | Timely & Accurate - UNIgst"
+          content="GST Return Filing in Chennai | Fast & Accurate - UNIgst"
         />
         <meta
           name="twitter:description"
-          content="Never miss GST return deadlines. Professional filing services with ITC optimization and accurate reconciliation."
+          content="Never miss GST deadlines. Expert filing, reconciliation, and ITC optimization for companies in Chennai."
         />
         <meta
           name="twitter:image"
-          content="https://www.unigst.com/images/gst-return-filing-bangalore-twitter.jpg"
+          content="https://www.unigst.com/images/gst-return-filing-chennai-twitter.jpg"
         />
 
         {/* Service Schema */}
@@ -120,15 +93,15 @@ const GstReturnFilingBangalore = () => {
                 name: "UNIgst",
                 address: {
                   "@type": "PostalAddress",
-                  addressLocality: "Bangalore",
-                  addressRegion: "Karnataka",
+                  addressLocality: "Chennai",
+                  addressRegion: "Tamil Nadu",
                   addressCountry: "IN",
                 },
                 telephone: "+91-9945933333",
               },
               areaServed: {
                 "@type": "City",
-                name: "Bangalore",
+                name: "Chennai",
               },
               category: "Tax Filing Service",
               hasOfferCatalog: {
@@ -144,24 +117,15 @@ const GstReturnFilingBangalore = () => {
                   },
                   {
                     "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "Quarterly GST Returns",
-                    },
+                    itemOffered: { "@type": "Service", name: "Quarterly GST Returns" },
                   },
                   {
                     "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "Annual GST Returns (GSTR-9)",
-                    },
+                    itemOffered: { "@type": "Service", name: "Annual GST Returns (GSTR-9)" },
                   },
                   {
                     "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "GST Reconciliation Services",
-                    },
+                    itemOffered: { "@type": "Service", name: "GST Reconciliation Services" },
                   },
                 ],
               },
@@ -190,7 +154,7 @@ const GstReturnFilingBangalore = () => {
                   name: "Can you handle GST returns for multiple branches?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Yes, we manage GST compliance for businesses with multiple locations across Karnataka and other states.",
+                    text: "Yes, we manage GST compliance for businesses with multiple locations across states including Tamil Nadu.",
                   },
                 },
                 {
@@ -198,7 +162,7 @@ const GstReturnFilingBangalore = () => {
                   name: "What if I've missed filing returns for several months?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "We can help file all arrear returns. Late fees and interest will apply, but we'll minimize penalties and get you compliant.",
+                    text: "We can help file all backdated returns. Late fees and interest may apply, but we minimize penalties and restore compliance quickly.",
                   },
                 },
               ],
@@ -206,17 +170,19 @@ const GstReturnFilingBangalore = () => {
           }}
         />
       </Head>
-      <CompanySection data={heroDataReturnFilingBangalore} />
+
+      <CompanySection data={heroDataReturnFilingChennai} />
+
       <section className="bg-[#41001f] w-full">
         <AboutSection data={aboutSectionDataReturnFilingBangalore} />
         <ProcessSectionReturn data={processStepsReturnBangalore} />
         <CoreValuesReturn />
         <SecurityProtocols />
       </section>
-        <FilingIssuesSolution />
+      <FilingIssuesSolution />
         <FaqSection faqs={faqsReturnfiling} />
     </>
   );
 };
 
-export default GstReturnFilingBangalore;
+export default GstReturnFilingChennai;

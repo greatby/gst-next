@@ -2,16 +2,12 @@
 import React from "react";
 import Link from "next/link";
 
-
-
-const ProcessSectionReturn = ({data}) => {
+const ProcessSectionReturn = ({ data }) => {
   return (
     <section className="relative flex flex-col items-center max-w-[90rem] mx-auto px-4 sm:-mt-12">
       {/* Heading */}
       <div className="flex flex-col gap-y-6 text-center items-center max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-white">
-      Our GST Return Filing Process
-        </h2>
+        <h2 className="text-4xl font-bold text-white">What we handle?</h2>
       </div>
 
       {/* Grid */}

@@ -3,27 +3,27 @@ import React from "react";
 
 const values = [
   {
-    title: "Monthly Returns (GSTR-1 & GSTR-3B)",
+    title: "Step 1: Connect Your Data",
     description:
-      "We ensure timely GST return filing by the 11th of the following month, covering all your sales accurately, including B2B and B2C invoices, credit/debit notes, exports, and exempt or nil-rated supplies.",
+      "Link your accounting software (Tally, Zoho, QuickBooks) or share invoices monthly. One-time setup.",
     image: "/images/Layer_1.png",
   },
   {
-    title: "GSTR-3B: Summary Return with Tax Payment",
+    title: "Step 2: We Process Everything",
     description:
-      "We prepare and file GSTR-3B by the 20th of the following month, including a summary of outward/inward supplies, input tax credit claims, tax liability computation, payments, and applicable interest or late fees.",
+      "Invoice validation, ITC reconciliation, error checking, tax calculation. All handled by our team.",
     image: "/images/Layer_1-1.png",
   },
   {
-    title: "Quarterly Returns",
+    title: "Step 3: You Review & Approve",
     description:
-      "We handle quarterly GST returns, including GSTR-3B under the QRMP scheme and CMP-08 for composition taxpayers, ensuring accurate calculations, complete documentation, and timely filing.",
+      "Get return summary 3 days before deadline. Review on dashboard. Approve with one click.",
     image: "/images/Layer_1-2.png",
   },
-   {
-    title: "Annual Returns",
+  {
+    title: "Step 4: We File & Confirm",
     description:
-      "We manage annual GST returns, including GSTR-9, GSTR-9C, and GSTR-9A, providing complete reconciliation of supplies, input tax credits, payments, refunds, and HSN summaries, while ensuring compliance and timely filing.",
+      "Filed on time, every time. Get confirmation with ARN. Payment challan if tax due. Done.",
     image: "/images/Layer_1-1.png",
   },
 ];
@@ -33,7 +33,7 @@ const CoreValuesReturn = () => {
     <section className="relative flex flex-col items-center text-white max-w-[90rem] mx-auto px-4 py-16">
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-bold text-center max-w-4xl mx-auto">
-      With UNIgst, stay compliant and stress-free.
+        HOW IT WORKS
       </h2>
 
       {/* Grid */}

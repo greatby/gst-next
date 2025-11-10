@@ -2,39 +2,35 @@
 
 export default function SecurityProtocols() {
   const bullets = [
-    "Local support",
-    "Workstation Monitoring",
-    "Secure Data Transferal",
-    "Proprietary security solutions",
-    "VPNs, SSLs, PGP encryptions and Password Protected Data Access",
-    "Best-in-class data archiving and destruction procedures",
+    "10-500 invoices per month. Don't have time for GST paperwork. Need expert handling.",
+    "Multiple marketplaces. High transaction volume. Complex B2C and B2B mix. Need automation.",
+    "Consulting, IT, professional services. Interstate supplies. Reverse charge mechanism. Expert guidance needed.",
+    "Purchase and sales both. Input tax credit reconciliation critical. Inventory management integrated.",
+    "Missed previous deadlines. Pending returns. Late fees accumulated. Need cleanup + ongoing filing.",
+    "Registered in multiple states. Different GSTIN management. Centralized filing dashboard needed.",
   ];
 
   return (
-    <section className="relative mb-24 sm:mb-[140px] bg-[#f8efff]">
+    <section className="relative bg-[#f8efff]">
       <div className="max-w-[1300px] mx-auto px-6 sm:px-10 py-16 sm:py-24">
         {/* Heading + description center */}
         <div className="hidden sm:flex flex-col gap-6 max-w-[750px] mx-auto text-center">
           <h2 className="text-[42px] sm:text-[48px] font-light leading-tight">
-            Security <br /> Protocols
+            Who Needs GST Return Filing Services?
           </h2>
 
           <p className="text-[16px] text-black leading-relaxed">
-            In TechSpeed’s 20+ year history, we have never lost a document,
-            mismanaged an electronic data file, or had a breach of
-            confidentiality. Our process includes:
+          Any business that wants GST compliance without the headache.
           </p>
         </div>
 
         {/* MOBILE heading (below canvas image on mobile) */}
         <div className="flex sm:hidden flex-col gap-6 max-w-[750px] mx-auto text-center mt-6">
           <h2 className="text-[32px] font-light leading-tight">
-            Security Protocols
+               Who Needs GST Return Filing Services?
           </h2>
           <p className="text-[15px] text-black leading-relaxed">
-            In TechSpeed’s 20+ year history, we have never lost a document,
-            mismanaged an electronic data file, or had a breach of
-            confidentiality. Our process includes:
+            Any business that wants GST compliance without the headache.
           </p>
         </div>
 
