@@ -1652,7 +1652,6 @@ export const faqsRegistration = [
   },
 ];
 
-
 export const heroDataReturnFilingBangalore = {
   title: "GST Return Filing in Bangalore. Monthly GST returns filed on time.",
   // subTitle: "Comprehensive GST Compliance Services in Bangalore",
@@ -3577,6 +3576,578 @@ export const heroDataReturnFilingKanpur = {
   description: `Never miss a GST return deadline again. UNIgst delivers accurate, on-time, and end-to-end GST return filing services for businesses in Kanpur. From startups to large enterprises, we ensure error-free filings, seamless ITC reconciliation, and complete GST compliance with zero delays.
 
 `,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const heroDataNoticeServicesBangalore = {
+  title: "GST Notice Services in Bangalore. Expert GST notice handling.",
+  // subTitle: "Comprehensive GST Compliance Services in Bangalore",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const aboutSectionDataNoticeServicesBangalore = {
+  title: "Why Businesses Choose Our GST Notice Service?",
+  description: `Businesses choose our GST notice service because we combine legal expertise, compliance intelligence, and hands-on support to deliver fast, accurate, and reliable solutions. When a GST notice arrives, you need more than a basic reply—you need a strategic, well-structured response backed by data, legal interpretation, and professional representation. Our team ensures that every notice is handled with precision, reducing penalties and safeguarding your business from future scrutiny. We analyze the notice in detail, identify the root cause, reconcile mismatched data, and prepare a clear, compelling reply that addresses every point raised by the department. Whether it’s a DRC-01, DRC-02, audit notice, SCN, scrutiny notice, or assessment order, we prepare legally sound responses tailored to your unique business transactions.`,
+};
+
+export const processStepsNoticeservicesBangalore = [
+  {
+    number: "1",
+    title: " GSTR-3B vs GSTR-1 Mismatch (DRC-01)",
+    description:
+      "A DRC-01 is issued when your GSTR-1 sales don’t match GSTR-3B. We reconcile both returns, correct errors, submit supporting documents, and secure major penalty reduction—usually 80–85% waived.",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "2",
+    title: "Input Tax Credit (ITC) Mismatch (GSTR-2A/2B)",
+    description: `A GST ITC mismatch notice arises when the ITC claimed in GSTR-3B doesn’t match GSTR-2A/2B. We reconcile supplier-wise data, follow up with non-filing suppliers, submit purchase proofs, and defend eligible ITC—saving 70–80% of ITC from reversal.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "3",
+    title: "Non-Filing of Returns (GSTR-3B, GSTR-1)",
+    description:
+      "A non-filing notice is issued when monthly GST returns (GSTR-3B or GSTR-1) are missed. We immediately file all pending returns, calculate and clear late fees/interest, and submit a proper explanation to avoid further penal action—ensuring 100% compliance restoration.",
+    image: "/images/process_3.png",
+  },
+  {
+    number: "4",
+    title: "Show Cause Notice (SCN) for Tax Demand",
+    description:
+      "A Show Cause Notice (SCN) is issued when the department suspects tax short-payment or wrong ITC. We prepare a strong point-by-point legal reply, submit documentary evidence, attend hearings, and defend your case—resulting in most tax demands being dropped or greatly reduced.",
+    image: "/images/process_4.png",
+  },
+  {
+    number: "5",
+    title: "Audit Notice (ASMT-10)",
+    description:
+      "An ASMT-10 audit notice means your GST records for a specific year are selected for departmental audit. We conduct a full pre-audit review, organize documents, assist during the audit, and defend findings—ensuring 90% audits close without major issues.",
+    image: "/images/process_5.png",
+  },
+  {
+    number: "6",
+    title: "E-Way Bill Notices",
+    description:
+      "An e-way bill notice is issued when goods are intercepted or flagged for mismatch or missing documentation. We act immediately, prepare all supporting transport documents, represent at the checkpoint or department, and defend the case legally—achieving 80% goods release with minimal penalties.",
+    image: "/images/process_6.png",
+  },
+  {
+    number: "7",
+    title: "Annual Return Discrepancy (GSTR-9/9C)",
+    description:
+      "A GSTR-9/GSTR-9C mismatch notice is issued when annual return figures don’t match monthly filings or the audit report shows discrepancies. We reconcile all monthly returns with the annual return, correct data where permitted, and submit detailed explanations with supporting schedules—successfully resolving 75% cases without penalties.",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "8",
+    title: "Profiteering Notice (Anti-Profiteering)",
+    description: `An anti-profiteering notice is issued when the department believes you didn’t reduce prices after a GST rate cut. We defend your case with cost analysis, pricing evidence, and legal arguments to show genuine reasons for price retention—achieving 50–60% success in avoiding or reducing liability.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "9",
+    title: "Cancellation of GST Registration (SCN for Cancellation)",
+    description:
+      "A GST cancellation notice is issued when the department suspects non-compliance, such as non-filing or address mismatch. We file pending returns, update records, provide proof of genuine business, and handle verification—achieving 95% success in revoking cancellation when acted on quickly.",
+    image: "/images/process_3.png",
+  },
+  {
+    number: "10",
+    title: "Refund Rejection/Query Notice",
+    description:
+      "A refund rejection notice is issued when your GST refund claim has discrepancies or missing documentation. We review the rejection, fix correctable errors, submit required proofs, and appeal when necessary—successfully getting 70% refunds released after proper representation.",
+    image: "/images/process_4.png",
+  },
+  {
+    number: "11",
+    title: "Search & Seizure Notice (Inspection)",
+    description:
+      "A GST inspection or search happens when officers visit your premises to seize documents or goods due to suspected tax evasion or fraudulent transactions. We provide immediate legal support, ensure officers follow proper procedures, protect your rights during the search, and handle all post-search responses—ensuring 100% procedural compliance and minimizing prosecution risk.",
+    image: "/images/process_5.png",
+  },
+  {
+    number: "12",
+    title: "Summons to Appear (SUMM-01)",
+    description:
+      "A GST summons requires you to appear before the department for inquiry or statement recording. We accompany you, prepare you on what to say, ensure the statement is recorded correctly without coercion, and handle any follow-up—providing 100% proper representation and preventing self-incrimination.",
+    image: "/images/process_6.png",
+  },
+];
+export const faqsNoticeBangalore = [
+  {
+    question: "What should I do immediately after receiving a GST notice?",
+    answer:
+      "The first 24 hours are critical. Do NOT panic or make any payment. Read the notice, identify the type, check the reply deadline, gather the mentioned documents, and forward the notice to us immediately. Avoid calling the officer directly. We respond within 24 hours with notice type identification, risk assessment, deadline confirmation, document checklist, and strategy plan.",
+  },
+  {
+    question: "How long do I have to reply to a GST notice?",
+    answer:
+      "Reply time varies by notice type: SCN (30 days), DRC-01 (15 days), ASMT-10 audit notice (15–30 days), Summons (7–15 days). Missing the deadline can lead to an ex-parte order. Extensions are rare but possible for genuine reasons. We recommend replying 2–3 days before deadline to avoid last-minute issues.",
+  },
+  {
+    question: "Can I reply to a GST notice myself or do I need professional help?",
+    answer:
+      "You can self-reply only for very small mismatches (<₹10K) or simple errors. Professional help is recommended for demands above ₹1 lakh, complex legal issues, fraud allegations, audits, or where case laws and legal interpretation are needed. Our replies reduce penalties by 30–50% more than self-replies, backed by case laws and structured legal strategy.",
+  },
+  {
+    question: "Do I have to pay the demand mentioned in the GST notice?",
+    answer:
+      "No. A notice is only a proposed demand. You pay only after the officer passes a final order. With a proper reply and personal hearing, 40% demands are fully dropped and another 30% substantially reduced. Strong defense, evidence, and personal hearing performance greatly influence outcomes.",
+  },
+  {
+    question: "What is a personal hearing and should I request it?",
+    answer:
+      "A personal hearing is a face-to-face meeting with the GST officer after your written reply. You should ALWAYS request it. It helps clarify issues, present evidence, negotiate penalties, and understand the officer's concerns. You attend with our CA/lawyer who presents your case and ensures accurate recording of proceedings.",
+  },
+  {
+    question: "What happens if I don't reply to a GST notice?",
+    answer:
+      "Non-reply results in an ex-parte order where the full demand and maximum penalty are confirmed. Bank accounts may be attached, ITC blocked, and registration suspended. Appeals become difficult and expensive. We can still file a late reply with condonation request, but acceptance is not guaranteed.",
+  },
+  {
+    question: "How much penalty can be levied for GST notices?",
+    answer:
+      "Penalty depends on case type: Non-fraud cases = 10% of tax or ₹10,000; Fraud cases = 100–200% penalty. Wrong ITC = 10% or ₹10,000. Late filing = ₹50/day up to ₹5,000. With strong defense and evidence, penalties can be reduced by 50–80%. Our average reduction: 87% across 500+ cases.",
+  },
+  {
+    question: "Can I settle a GST notice by paying less than demanded?",
+    answer:
+      "Yes. While tax and interest are non-negotiable, penalties can be reduced significantly through negotiation during personal hearing. This works best when tax is paid promptly, errors are unintentional, and compliance history is good. We routinely achieve 50–80% penalty reduction.",
+  },
+  {
+    question: "What is the difference between a Show Cause Notice (SCN) and DRC-01?",
+    answer:
+      "DRC-01 is an automated notice for mismatches or simple errors with lower penalty risk. SCN is a manual notice issued by an officer for serious issues like evasion, classification disputes, and audit findings. SCN requires a strong legal reply (15–30 pages) and personal hearing.",
+  },
+  {
+    question: "Do I need a GST lawyer or is a CA enough?",
+    answer:
+      "A CA is sufficient for 90% of notices (SCN, DRC-01, ITC mismatch, audit notices). A GST lawyer is required only for prosecution cases, search/seizure, summons, large fraud allegations, Tribunal appeals, or High Court writ petitions. Our team includes both CA and GST lawyers depending on case severity.",
+  },
+  {
+    question: "How long does it take to resolve a GST notice?",
+    answer:
+      "Resolution depends on notice type: DRC-01 (30–45 days), SCN (2–4 months), Audit disputes (3–6 months), Search/seizure (6–12 months), Appeals (6–24 months). Our average resolution time for standard notices is 45–60 days. Complex matters take longer depending on officer workload and hearings.",
+  },
+  {
+    question: "What if the GST order goes against me? Can I appeal?",
+    answer:
+      "Yes. Three appeal levels exist: Appellate Authority (first appeal) with 10% pre-deposit, GST Tribunal (additional 10% deposit), and High Court for legal/procedural errors. Best results come from strong defense at the notice stage to avoid costly appeals.",
+  },
+];
+export const heroDataNoticeServicesMumbai = {
+  title: "GST Notice Services in Mumbai. Expert GST notice handling.",
+  description:
+    "Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities",
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataNoticeServicesDelhi = {
+  title: "GST Notice Services in Delhi. Expert GST notice handling.",
+  description:
+    "Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities",
+  items: [
+    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
+    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
+    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
+    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+  ],
+};
+export const heroDataNoticeServicesChennai = {
+  title: "GST Notice Services in Chennai. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesHyderabad = {
+  title: "GST Notice Services in Hyderabad. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesPune = {
+  title: "GST Notice Services in Pune. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesKolkata = {
+  title: "GST Notice Services in Kolkata. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesAhmedabad = {
+  title: "GST Notice Services in Ahmedabad. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesSurat = {
+  title: "GST Notice Services in Surat. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesGurgaon = {
+  title: "GST Notice Services in Gurgaon. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesNoida = {
+  title: "GST Notice Services in Noida. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesJaipur = {
+  title: "GST Notice Services in Jaipur. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesLucknow = {
+  title: "GST Notice Services in Lucknow. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesIndore = {
+  title: "GST Notice Services in Indore. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesCoimbatore = {
+  title: "GST Notice Services in Coimbatore. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesVadodara = {
+  title: "GST Notice Services in Vadodara. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesVisakhapatnam = {
+  title: "GST Notice Services in Visakhapatnam. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesNagpur = {
+  title: "GST Notice Services in Nagpur. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesBhopal = {
+  title: "GST Notice Services in Bhopal. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataNoticeServicesKanpur = {
+  title: "GST Notice Services in Kanpur. Expert GST notice handling.",
+  description: `Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities`,
   items: [
     {
       title: "We Are",
