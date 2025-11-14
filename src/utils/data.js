@@ -4167,3 +4167,144 @@ export const heroDataNoticeServicesKanpur = {
     },
   ],
 };
+
+export const heroDataRefundProcessingBangalore = {
+  title: "GST Refund Processing Services in Bangalore. Fast GST refund claims.",
+  // subTitle: "Comprehensive GST Compliance Services in Bangalore",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+
+export const aboutSectionDataRefundProcessingBangalore = {
+  title: "Why Businesses Choose Our GST Refund Processing?",
+  description: `Businesses choose our GST refund processing services because we combine advanced GST expertise with operational efficiency to deliver fast and accurate refund results. Our team thoroughly analyses your ledgers, invoices, GSTR filings, export documentation, and ITC positions to identify eligible refund amounts and eliminate compliance risks.
+We prepare complete refund application files, including supporting statements, reconciliations, declarations, and annexures, ensuring your claim is department-ready on day one.
+Additionally, we continuously track refund status, represent you during officer scrutiny, respond to notices/queries, and address discrepancies—significantly reducing refund processing time.
+Our clients value our reliability, industry experience, strong documentation quality, and our ability to secure refunds with minimal involvement from their internal teams.`,
+};
+
+export const processStepsRefundProcessingBangalore = [
+  {
+    number: "1",
+    title: "Export Refund (IGST Paid on Exports)",
+    description:
+      "We help exporters recover IGST paid on zero-rated supplies through accurate documentation, clean reconciliations, and fast refund filing. Our end-to-end processing ensures quick approvals, minimal errors, and a 95% success rate.",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "2",
+    title: "Export Refund (ITC Refund on Exports - LUT Route)",
+    description: `Claim your accumulated ITC refund under LUT with accurate formula-based calculations, clean ITC reconciliations, and complete documentation support. We manage proportionate ITC allocation, respond to queries, and ensure timely approvals with an 88% success rate.`,
+    image: "/images/process_2.png",
+  },
+  {
+    number: "3",
+    title: "Refund of Excess Payment (Tax Paid by Mistake)",
+    description:
+      "Claim refunds for excess GST paid with precise payment–liability matching, detailed explanations, and complete proof preparation. We simplify the process, address officer queries, and secure timely refunds with a high success rate.",
+    image: "/images/process_3.png",
+  },
+  {
+    number: "4",
+    title: "Refund on Account of Inverted Duty Structure",
+    description:
+      "Claim your inverted duty structure refund with precise ITC calculations, proper turnover segregation, and complete compliance support. We handle officer scrutiny, prepare legally backed submissions, and secure refunds even in complex cases.",
+    image: "/images/process_4.png",
+  },
+  {
+    number: "5",
+    title: "Refund to UN Bodies / Embassies",
+    description:
+      "Claim GST refunds for supplies to UN bodies and embassies with complete MEA support, accurate paperwork, and expert department liaison. We simplify a highly specialized process and secure approvals with a 90% success rate.",
+    image: "/images/process_5.png",
+  },
+  {
+    number: "6",
+    title: "Refund to International Tourists",
+    description:
+      "Enable foreign tourists to claim GST refunds seamlessly with our expert setup, documentation training, and coordination with refund aggregators. We help businesses implement a fully compliant, hassle-free tourist refund system for maximum approval rates.",
+    image: "/images/process_6.png",
+  },
+  {
+    number: "7",
+    title: "Refund on Supplies to SEZ (Special Economic Zone)",
+    description:
+      "Claim GST refunds for SEZ supplies with our end-to-end support, covering SEZ endorsements, acknowledgment certificates, and compliant invoice handling. We streamline the entire process and secure high refund success rates with minimal effort from your team.",
+    image: "/images/process_1.png",
+  },
+  {
+    number: "8",
+    title: "Refund of Pre-Deposit (Appellate/Tribunal Cases)",
+    description: `Claim your appellate pre-deposit refund smoothly with our expert filing, precise refund + interest computation, and consistent department follow-up. We ensure fast processing and hassle-free credit after a favorable appeal order.`,
+    image: "/images/process_2.png",
+  },
+];
+
+export const faqsRefundBangalore = [
+  {
+    question: "How long does GST refund take?",
+    answer: `Official timeline: 60 days from application filing (CGST Act Section 54). Reality varies by refund type — IGST-paid export refunds: 30–45 days; ITC refunds under LUT: 45–90 days; Inverted duty refunds: 60–90 days; Excess payment refunds: 30–60 days. Our average: 35–40 days for export refunds due to error-free documentation. Factors that slow processing: incomplete documents, large refund amounts (more scrutiny), officer workload, and queries (each query typically adds 15–30 days). If delayed beyond 60 days, interest at 6% p.a. is payable from day 61; we help claim this interest.`,
+  },
+  {
+    question: "What is the maximum amount of GST refund I can claim?",
+    answer: `There is no legal maximum — you may claim any refund you're entitled to. Practically, small refunds (<₹2L) face least scrutiny; medium (₹2L–20L) see standard processing; large refunds (₹20L–1Cr) attract higher scrutiny and likely hearings; very large refunds (>₹1Cr) face intense checks and senior officer clearance. Time limit: claim within 2 years from the relevant date. Interest: 6% p.a. if refund delayed beyond 60 days. Our experience: largest refund handled ₹3.2 Cr (sanctioned in 42 days); average client refunds ₹8–15L.`,
+  },
+  {
+    question: "Can I claim GST refund if I have pending GST liabilities?",
+    answer: `Generally refunds are auto-adjusted against pending liabilities (tax, interest, penalties). If pending liabilities exist, the sanctioned refund is adjusted and you receive the net balance. You can contest an underlying liability separately, but adjustments at sanction are automatic. Best practice: clear outstanding liabilities before filing. Our service includes pre-refund compliance checks to identify and resolve liabilities before submission.`,
+  },
+  {
+    question: "What documents are needed for export refund?",
+    answer: `IGST-paid route: export invoices, shipping bills, Bill of Lading/Airway Bill, BRC/FIRC (proof of payment), GSTR-1 and GSTR-3B copies, and LUT (if applicable). LUT (ITC) route: above plus ITC ledger, purchase invoices, ITC reconciliation (GSTR-2A/2B matching), turnover bifurcation, and CA certificate for refunds >₹2L. SEZ supplies need SEZ endorsement, SEZ acknowledgment, and delivery proofs. Common errors: missing BRC, invoice–shipping bill mismatches, unfiled GSTR-1, expired LUT. We provide a tailored document checklist and pre-filing verification.`,
+  },
+  {
+    question: "Can I get refund if I filed GST returns late?",
+    answer: `Yes — late filing does not automatically bar refunds, provided returns are filed and late fees paid. Non-filing disqualifies refund. Late-filed returns attract closer scrutiny and may slow processing. Time limit remains 2 years from the relevant date (not from return filing). We advise filing returns and clearing late fees before refund filing; we've successfully processed 50+ refunds with late returns.`,
+  },
+  {
+    question: "What is the difference between refund of IGST paid and ITC refund (LUT route)?",
+    answer: `IGST-paid route: you pay IGST on export invoices and claim exact IGST refund (simpler and faster — ~30–45 days). LUT (ITC) route: you export without paying IGST and claim a formula-based portion of accumulated ITC — Refund = (Export turnover / Adjusted Total Turnover) × Net ITC — this is more complex, slower (45–90 days), and may yield less than the full ITC used. IGST route is recommended if you can afford the upfront payment; LUT is for cash-constrained exporters.`,
+  },
+  {
+    question: "Can I claim refund for old periods (1–2 years ago)?",
+    answer: `Yes, if within the 2-year limitation from the relevant date (for goods: later of invoice or shipping bill; for services: date of receipt of payment). Beyond 2 years the claim is time-barred and cannot be recovered. We prioritize near-time-bar cases and have filed refunds up to 22 months old — file ASAP to avoid losing entitlements and interest.`,
+  },
+  {
+    question: "What if my refund application is rejected?",
+    answer: `Rejection is appealable. Common reasons: incomplete documents, invoice–shipping bill mismatches, ineligible ITC, or time-barred claims. You receive Form RFD-08 with reasons. Appeal (Form RFD-09) must be filed within 3 months; grounds, documents and hearings follow. Our service: free rejection analysis for our filings, appeal drafting/filing, hearing representation, and success-based options where applicable.`,
+  },
+  {
+    question: "How is refund amount calculated for ITC refund (LUT route)?",
+    answer: `As per Rule 89(4): Refund = (Turnover of zero-rated supply / Adjusted Total Turnover) × Net ITC. Components: export turnover; adjusted total turnover (total minus exempt and certain supplies); and net ITC (ITC availed minus reversals and ITC utilized). Disputes on turnover figures are common; we apply conservative, CBIC-aligned methodologies and have ~92% acceptance on our calculations.`,
+  },
+  {
+    question: "Can I claim refund if export proceeds are not received yet?",
+    answer: `IGST-paid route normally requires BRC, but Rule 96(10) permits refunds with a bank certificate/undertaking that proceeds will be realized (usually within 1 year). LUT route does not require BRC but needs proof of export. Practically, some officers insist on full BRC; in urgent cases we file with partial BRC + undertaking. About 80% of claims succeed with undertakings; where possible, claiming after receipt is cleaner and faster.`,
+  },
+  {
+    question: "Do I need a Chartered Accountant certificate for GST refund?",
+    answer: `Yes — CA certificate (Form RFD-01A) is mandatory for refunds >₹2 lakhs. The CA certifies refund calculations, turnover figures and ITC eligibility; UDIN is required. We provide CA certification as part of our service for claims above the threshold, ensuring proper formats and compliance.`,
+  },
+  {
+    question: "Can I track my refund application status online?",
+    answer: `Yes — track via GST portal (Services → Refunds → Track Application Status) using the ARN. Status stages include: Filed, Pending for Processing, Query Raised, Processing, Sanctioned, and Paid. Typical timelines: queries within 7–15 days, responses allowed 15 days, processing and sanction timelines vary. We monitor daily, provide weekly updates, and proactively escalate if stuck.`,
+  },
+];

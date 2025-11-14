@@ -625,5 +625,11 @@ export default function sitemap() {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    {
+      url: `${base}/gst-refund-processing-bangalore`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
   ];
 }
