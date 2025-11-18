@@ -3721,7 +3721,8 @@ export const faqsNoticeBangalore = [
       "Reply time varies by notice type: SCN (30 days), DRC-01 (15 days), ASMT-10 audit notice (15–30 days), Summons (7–15 days). Missing the deadline can lead to an ex-parte order. Extensions are rare but possible for genuine reasons. We recommend replying 2–3 days before deadline to avoid last-minute issues.",
   },
   {
-    question: "Can I reply to a GST notice myself or do I need professional help?",
+    question:
+      "Can I reply to a GST notice myself or do I need professional help?",
     answer:
       "You can self-reply only for very small mismatches (<₹10K) or simple errors. Professional help is recommended for demands above ₹1 lakh, complex legal issues, fraud allegations, audits, or where case laws and legal interpretation are needed. Our replies reduce penalties by 30–50% more than self-replies, backed by case laws and structured legal strategy.",
   },
@@ -3751,7 +3752,8 @@ export const faqsNoticeBangalore = [
       "Yes. While tax and interest are non-negotiable, penalties can be reduced significantly through negotiation during personal hearing. This works best when tax is paid promptly, errors are unintentional, and compliance history is good. We routinely achieve 50–80% penalty reduction.",
   },
   {
-    question: "What is the difference between a Show Cause Notice (SCN) and DRC-01?",
+    question:
+      "What is the difference between a Show Cause Notice (SCN) and DRC-01?",
     answer:
       "DRC-01 is an automated notice for mismatches or simple errors with lower penalty risk. SCN is a manual notice issued by an officer for serious issues like evasion, classification disputes, and audit findings. SCN requires a strong legal reply (15–30 pages) and personal hearing.",
   },
@@ -3776,10 +3778,22 @@ export const heroDataNoticeServicesMumbai = {
   description:
     "Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities",
   items: [
-    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
-    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
-    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
-    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
   ],
 };
 export const heroDataNoticeServicesDelhi = {
@@ -3787,10 +3801,22 @@ export const heroDataNoticeServicesDelhi = {
   description:
     "Professional response within 48 hours. Legal representation included. 500+ GST notices handled. 87% penalty reduction achieved. Zero cases lost on technicalities",
   items: [
-    { title: "We Are", text: "Hands-on operators managing all aspects of GST processes." },
-    { title: "We Are", text: "Elite expertise to ensure your GST technology runs flawlessly." },
-    { title: "We Are", text: "Turning GST from a compliance risk into a streamlined, value-adding function." },
-    { title: "We Are", text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest" },
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
   ],
 };
 export const heroDataNoticeServicesChennai = {
@@ -4280,7 +4306,8 @@ export const faqsRefundBangalore = [
     answer: `Yes — late filing does not automatically bar refunds, provided returns are filed and late fees paid. Non-filing disqualifies refund. Late-filed returns attract closer scrutiny and may slow processing. Time limit remains 2 years from the relevant date (not from return filing). We advise filing returns and clearing late fees before refund filing; we've successfully processed 50+ refunds with late returns.`,
   },
   {
-    question: "What is the difference between refund of IGST paid and ITC refund (LUT route)?",
+    question:
+      "What is the difference between refund of IGST paid and ITC refund (LUT route)?",
     answer: `IGST-paid route: you pay IGST on export invoices and claim exact IGST refund (simpler and faster — ~30–45 days). LUT (ITC) route: you export without paying IGST and claim a formula-based portion of accumulated ITC — Refund = (Export turnover / Adjusted Total Turnover) × Net ITC — this is more complex, slower (45–90 days), and may yield less than the full ITC used. IGST route is recommended if you can afford the upfront payment; LUT is for cash-constrained exporters.`,
   },
   {
@@ -4308,3 +4335,443 @@ export const faqsRefundBangalore = [
     answer: `Yes — track via GST portal (Services → Refunds → Track Application Status) using the ARN. Status stages include: Filed, Pending for Processing, Query Raised, Processing, Sanctioned, and Paid. Typical timelines: queries within 7–15 days, responses allowed 15 days, processing and sanction timelines vary. We monitor daily, provide weekly updates, and proactively escalate if stuck.`,
   },
 ];
+
+export const heroDataRefundProcessingMumbai = {
+  title: "GST Refund Processing Services in Mumbai. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingDelhi = {
+  title: "GST Refund Processing Services in Delhi. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingChennai = {
+  title: "GST Refund Processing Services in Chennai. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingHyderabad = {
+  title: "GST Refund Processing Services in Hyderabad. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingPune = {
+  title: "GST Refund Processing Services in Pune. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingKolkata = {
+  title: "GST Refund Processing Services in Kolkata. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingAhmedabad = {
+  title: "GST Refund Processing Services in Ahmedabad. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingSurat = {
+  title: "GST Refund Processing Services in Surat. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingGurgaon = {
+  title: "GST Refund Processing Services in Gurgaon. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingNoida = {
+  title: "GST Refund Processing Services in Noida. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingJaipur = {
+  title: "GST Refund Processing Services in Jaipur. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingLucknow = {
+  title: "GST Refund Processing Services in Lucknow. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingIndore = {
+  title: "GST Refund Processing Services in Indore. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingCoimbatore = {
+  title:
+    "GST Refund Processing Services in Coimbatore. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingVadodara = {
+  title: "GST Refund Processing Services in Vadodara. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingVisakhapatnam = {
+  title:
+    "GST Refund Processing Services in Visakhapatnam. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingNagpur = {
+  title: "GST Refund Processing Services in Nagpur. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingBhopal = {
+  title: "GST Refund Processing Services in Bhopal. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
+export const heroDataRefundProcessingKanpur = {
+  title: "GST Refund Processing Services in Kanpur. Fast GST refund claims.",
+  description: `Export refunds in 30-45 days. ITC refunds processed.
+Expert documentation. Maximum refund recovery. ₹45+ crores refunds processed. 92% approval rate. Average timeline: 35 days.`,
+  items: [
+    {
+      title: "We Are",
+      text: "Hands-on operators managing all aspects of GST processes.",
+    },
+    {
+      title: "We Are",
+      text: "Elite expertise to ensure your GST technology runs flawlessly.",
+    },
+    {
+      title: "We Are",
+      text: "Turning GST from a compliance risk into a streamlined, value-adding function.",
+    },
+    {
+      title: "We Are",
+      text: "Eliminating hours of manual reconciliation and data-chasing by leveraging technology to its fullest",
+    },
+  ],
+};
