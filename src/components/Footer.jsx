@@ -81,34 +81,18 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Middle Section (Links + Contact) */}
-      {/* <div className="max-w-[90rem] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12 border-t border-orange-500">
-        <div>
-          <h4 className="uppercase text-purple text-sm">Get In Touch</h4>
-          <ul className="mt-4 space-y-2 text-sm text-gray-300">
-            <li>
-              Headquarters - USA <br />
-              <a
-                href="https://goo.gl/maps/example"
-                target="_blank"
-                rel="noreferrer"
-              >
-                1300 SW 6th Ave, Portland OR 97201
-              </a>
-            </li>
-            <li>
-              <a href="tel:+91 99805 11980">+91 99805 11980</a>
-            </li>
-            <li>
-              <a href="mailto:hello@unigst.com">hello@unigst.com</a>
-            </li>
-          </ul>
-        </div>
-      </div> */}
-      <div className="max-w-[90rem] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12 border-t border-orange-500">
+      
+      <div className="max-w-[90rem] mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-12 border-t border-orange-500">
         {/* Social Section */}
         <div>
-          <h4 className="uppercase text-purple text-sm">Social</h4>
+          <Link href="/" className="flex items-center">
+            <img
+              src="images/UNIGST.png"
+              alt="Techspeed Logo"
+              className="w-full h-auto mb-7"
+            />
+          </Link>
+          <h4 className="uppercase text-[#b866fa] text-sm">Social</h4>
           <div className="mt-4 flex items-center gap-4 text-gray-300">
             <a
               href="https://www.linkedin.com/unigst"
@@ -152,18 +136,304 @@ const Footer = () => {
             </a> */}
           </div>
         </div>
+        <div>
+          <h4 className="uppercase text-[#b866fa] text-sm">Locations</h4>
+          <ul className="mt-4 space-y-1 text-sm text-gray-300">
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-bangalore"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Bangalore
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-mumbai"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Mumbai
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-delhi"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Delhi
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-chennai"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Chennai
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-hyderabad"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Hyderabad
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-pune"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Pune
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-kolkata"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Kolkata
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-ahmedabad"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Ahmedabad
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-surat"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Surat
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-gurgaon"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Gurgaon
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-noida"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Noida
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-jaipur"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Jaipur
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-lucknow"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Lucknow
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-indore"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Indore
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-coimbatore"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Coimbatore
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-vadodara"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Vadodara
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-visakhapatnam"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Visakhapatnam
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-nagpur"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Nagpur
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-bhopal"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Bhopal
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://gst-next.vercel.app/gst-consultants-kanpur"
+                target="_blank"
+                rel="noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Kanpur
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="uppercase text-[#b866fa] text-sm">Industries</h4>
+        
+          <ul className="mt-4 space-y-1 text-sm text-gray-300">
+            <li className="">
+              <a
+                href="https://www.epfdesk.com/pf-esic-consultant-education-sector-bangalore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Education
+              </a>
+            </li>
+            <li className=" ">
+              <a
+                href="https://www.epfdesk.com/pf-esic-consultant-hospitality-bangalore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Hospitality
+              </a>
+            </li>
+            <li className=" ">
+              <a
+                href="https://www.epfdesk.com/pf-esic-consultant-facility-management-bangalore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Facility Management
+              </a>
+            </li>
+            <li className=" ">
+              <a
+                href="https://www.epfdesk.com/pf-esic-consultant-transport-logistics-bangalore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Transport Logistics
+              </a>
+            </li>
+            <li className=" ">
+              <a
+                href="https://www.epfdesk.com/pf-esic-consultant-construction-bangalore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Construction
+              </a>
+            </li>
+            <li className=" ">
+              <a
+                href="https://www.epfdesk.com/pf-esic-consultant-manufacturing-bangalore/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#ec5b29] hover:text-[#c7e410]"
+              >
+                Manufacturing
+              </a>
+            </li>
+          </ul>
+        </div>
 
         {/* Get In Touch Section */}
         <div>
-          <h4 className="uppercase text-purple text-sm">Get In Touch</h4>
-          <ul className="mt-4 space-y-2 text-sm text-gray-300">
+          <h4 className="uppercase text-[#b866fa] text-sm">Get In Touch</h4>
+          <ul className="mt-4 space-y-2 text-sm text-[#ec5b29] cursor-none pointer-events-none">
             <li>
               Headquarters - India <br />
-              <a
-                href=""
-                target="_blank"
-                rel="noreferrer"
-              >
+              <a href="" target="_blank" rel="noreferrer">
                 62/63 Church Street, Karnataka, 560001
               </a>
             </li>
